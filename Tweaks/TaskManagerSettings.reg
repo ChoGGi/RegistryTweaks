@@ -1,0 +1,43 @@
+REGEDIT4
+
+[HKEY_USERS\.DEFAULT\Software\Microsoft\Windows NT\CurrentVersion\TaskManager]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\TaskManager]
+"Preferences"=hex:30,03,00,00,e8,03,00,00,01,00,00,00,01,00,00,00,03,0d,00,00,\
+  81,00,00,00,ca,0e,00,00,f4,03,00,00,01,00,00,00,01,00,00,00,00,00,00,00,00,\
+  00,00,00,01,00,00,00,00,00,00,00,01,00,00,00,00,00,00,00,00,00,00,00,04,00,\
+  00,00,09,00,00,00,0f,00,00,00,ff,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,c9,00,00,\
+  00,1f,00,00,00,51,00,00,00,39,00,00,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,\
+  ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,\
+  ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,\
+  ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,\
+  ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,\
+  00,00,00,00,01,00,00,00,02,00,00,00,03,00,00,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,\
+  ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,\
+  ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,\
+  ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,\
+  ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,\
+  ff,ff,ff,04,00,00,00,00,00,00,00,ff,ff,ff,ff,00,00,00,00,02,00,00,00,03,00,\
+  00,00,04,00,00,00,ff,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,aa,00,\
+  67,00,3c,00,5a,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,\
+  ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,\
+  ff,ff,00,00,00,00,00,00,01,00,00,00,02,00,00,00,03,00,00,00,ff,ff,ff,ff,ff,\
+  ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,\
+  ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,\
+  ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,\
+  ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,04,00,00,00,00,00,00,00,ff,ff,ff,ff,04,\
+  00,00,00,ff,ff,ff,ff,4f,00,00,00,28,00,00,00,50,00,00,00,34,00,00,00,50,00,\
+  00,00,00,00,00,00,01,00,00,00,02,00,00,00,03,00,00,00,04,00,00,00,00,00,00,\
+  00,ff,ff,ff,ff,46,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+"UsrColumnSettings"=hex:1c,0c,00,00,34,04,00,00,00,00,00,00,50,00,00,00,01,00,\
+  00,00,1d,0c,00,00,35,04,00,00,00,00,00,00,23,00,00,00,01,00,00,00,1e,0c,00,\
+  00,36,04,00,00,00,00,00,00,3c,00,00,00,01,00,00,00,1f,0c,00,00,39,04,00,00,\
+  00,00,00,00,4e,00,00,00,01,00,00,00,20,0c,00,00,37,04,00,00,00,00,00,00,4e,\
+  00,00,00,01,00,00,00

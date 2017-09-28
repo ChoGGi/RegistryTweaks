@@ -1,0 +1,11 @@
+REGEDIT4
+
+;run two copies of explorer.exe
+;one for the shell (startmenu/desktop)
+;one for the file manager
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"SeparateProcess"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer]
+"DesktopProcess"=dword:00000001

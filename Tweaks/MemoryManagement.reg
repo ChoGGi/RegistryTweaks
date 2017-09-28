@@ -1,0 +1,13 @@
+REGEDIT4
+
+;http://msdn.microsoft.com/en-us/library/cc594541.aspx
+;http://technet.microsoft.com/en-us/library/bb463205.aspx
+;http://support.microsoft.com/kb/102985
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
+"SystemPages"=dword:ffffffff
+"LargePageMinimum"=dword:ffffffff
+"DontVerifyRandomDrivers"=dword:00000001
+"DisablePagingExecutive"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem]
+"DontVerifyRandomDrivers"=dword:00000001

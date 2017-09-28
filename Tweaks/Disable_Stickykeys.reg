@@ -1,0 +1,6 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Control Panel\Accessibility\StickyKeys]
+"Flags"="506"
+[HKEY_CURRENT_USER\Software\AutoPatcher\Tweaks\Functionality]
+"disableStickyKeys"="20060416"

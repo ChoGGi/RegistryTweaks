@@ -1,0 +1,11 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Control Panel\Mouse]
+"MouseTrails"="-1"
+
+
+;-1 = A buggy setting that seems to enable the cursor trail render but has no actual trails
+;0  = Off
+;1  = Also equals off
+;2  = Lowest you can actually set the trail length in the control panel
+;10 = Default length

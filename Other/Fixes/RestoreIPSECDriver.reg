@@ -1,0 +1,19 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\IPSec]
+"Type"=dword:00000001
+"Start"=dword:00000001
+"ErrorControl"=dword:00000001
+"Tag"=dword:00000004
+"ImagePath"=hex(2):73,79,73,74,65,6d,33,32,5c,44,52,49,56,45,52,53,5c,69,70,73,65,63,2e,73,79,73,00
+"DisplayName"="IPSEC driver"
+"Group"="PNP_TDI"
+"Description"="IPSEC driver"
+"NoDefaultExempt"=dword:00000003
+"BootExemptList"=hex:01,00,00,00,10,00,00,00,11,01,00,00,44,00,00,00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\IPSec\Enum]
+"0"="Root\\LEGACY_IPSEC\\0000"
+"Count"=dword:00000001
+"NextInstance"=dword:00000001
+

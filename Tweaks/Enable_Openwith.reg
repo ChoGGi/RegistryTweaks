@@ -1,0 +1,4 @@
+REGEDIT4
+
+[HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\Open With]
+@="{09799AFB-AD67-11d1-ABCD-00C04FC30936}"

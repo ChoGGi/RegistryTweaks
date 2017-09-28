@@ -1,0 +1,91 @@
+REGEDIT4
+
+;you may also need to remove
+;control panel>add remove>windows components>networking services>internet gateway device blah blah
+;tested winxp sp3/xp x64 sp2
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoSaveSettings"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run]
+"SystemTray"="SysTray.Exe"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Nla]
+"Start"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Netman]
+"Start"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\drivers.desc]
+"ctwdm32.dll"="Creative inf(WDM)"
+"wdmaud.drv"="Creative EMU10K1 Audio Processor (WDM)"
+"msaud32.acm"="Windows Media Audio Codec"
+"sl_anet.acm"="Sipro Lab Telecom Audio Codec"
+"C:\\WINDOWS\\system32\\iac25_32.ax"="Indeo® audio software"
+"ir50_32.dll"="Indeo® video 5.10"
+"C:\\WINDOWS\\system32\\l3codeca.acm"="Fraunhofer IIS MPEG Layer-3 Codec"
+"sirenacm.dll"="MSN Messenger Audio Codec"
+"mciavi32.dll"="mciavi32.dll"
+"mcicda.dll"="mcicda.dll"
+"mciseq.dll"="mciseq.dll"
+"mciwave.dll"="mciwave.dll"
+"mciqtz32.dll"="mciqtz32.dll"
+"midimap.dll"="midimap.dll"
+"imaadp32.acm"="imaadp32.acm"
+"msadp32.acm"="msadp32.acm"
+"msg711.acm"="msg711.acm"
+"msgsm32.acm"="msgsm32.acm"
+"tssoft32.acm"="tssoft32.acm"
+"iccvid.dll"="iccvid.dll"
+"msh263.drv"="msh263.drv"
+"ir32_32.dll"="ir32_32.dll"
+"ir41_32.ax"="ir41_32.ax"
+"iyuv_32.dll"="iyuv_32.dll"
+"msrle32.dll"="msrle32.dll"
+"msvidc32.dll"="msvidc32.dll"
+"msyuv.dll"="msyuv.dll"
+"tsbyuv.dll"="tsbyuv.dll"
+"msacm32.drv"="msacm32.drv"
+"msg723.acm"="msg723.acm"
+"msh261.drv"="msh261.drv"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Drivers32]
+"midimapper"="midimap.dll"
+"msacm.imaadpcm"="imaadp32.acm"
+"msacm.msadpcm"="msadp32.acm"
+"msacm.msg711"="msg711.acm"
+"msacm.msgsm610"="msgsm32.acm"
+"msacm.trspch"="tssoft32.acm"
+"vidc.cvid"="iccvid.dll"
+"vidc.I420"="msh263.drv"
+"vidc.iv31"="ir32_32.dll"
+"vidc.iv32"="ir32_32.dll"
+"vidc.iv41"="ir41_32.ax"
+"vidc.iyuv"="iyuv_32.dll"
+"vidc.mrle"="msrle32.dll"
+"vidc.msvc"="msvidc32.dll"
+"vidc.uyvy"="msyuv.dll"
+"vidc.yuy2"="msyuv.dll"
+"vidc.yvu9"="tsbyuv.dll"
+"vidc.yvyu"="msyuv.dll"
+"wavemapper"="msacm32.drv"
+"msacm.msg723"="msg723.acm"
+"vidc.M263"="msh263.drv"
+"vidc.M261"="msh261.drv"
+"msacm.msaudio1"="msaud32.acm"
+"msacm.sl_anet"="sl_anet.acm"
+"msacm.iac2"="C:\\WINDOWS\\system32\\iac25_32.ax"
+"vidc.iv50"="ir50_32.dll"
+"msacm.l3acm"="C:\\WINDOWS\\system32\\l3codeca.acm"
+"msacm.siren"="sirenacm.dll"
+"wave"="wdmaud.drv"
+"midi"="wdmaud.drv"
+"mixer"="wdmaud.drv"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Drivers32\Terminal Server\RDP]
+"wave"="rdpsnd.dll"
+"mixer"="rdpsnd.dll"
+"MaxBandwidth"=dword:000056b9
+"wavemapper"="msacm32.drv"
+"EnableMP3Codec"=dword:00000001
+"midimapper"="midimap.dll"

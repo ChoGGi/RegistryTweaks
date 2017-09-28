@@ -1,0 +1,1342 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Executive]
+"AdditionalCriticalWorkerThreads"=dword:0000000c
+"AdditionalDelayedWorkerThreads"=dword:0000000c
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager]
+"AllowProtectedRenames"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\AlwaysUnloadDLL]
+@="1"
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control]
+"WaitToKillServiceTimeout"="3000"
+[HKEY_USERS\.DEFAULT\Control Panel\Desktop]
+"AutoEndTasks"="1"
+"HungAppTimeout"="3000"
+"WaitToKillAppTimeout"="3000"
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"AutoEndTasks"="1"
+"HungAppTimeout"="3000"
+"WaitToKillAppTimeout"="3000"
+[HKEY_CURRENT_USER\Software\Microsoft\CalcPlus]
+"UseSep"=dword:00000001
+"UsePlain"=dword:00000001
+[HKEY_CURRENT_USER\Software\Microsoft\Command Processor]
+"CompletionChar"=dword:00000009
+"PathCompletionChar"=dword:00000009
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
+"DelayedDesktopSwitchTimeout"=dword:00000005
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Environment]
+"DEVMGR_SHOW_NONPRESENT_DEVICES"="1"
+"DEVMGR_SHOW_DETAILS"="1"
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Action Center\Checks]
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Action Center\Checks\{01979c6a-42fa-414c-b8aa-eee2c8202018}.check.100]
+"CheckSetting"=hex:01,00,00,00,d0,8c,9d,df,01,15,d1,11,8c,7a,00,c0,4f,c2,97,eb,\
+  01,00,00,00,c3,0c,c6,43,be,8b,e5,4d,a4,44,52,9a,bd,27,73,5a,00,00,00,00,02,\
+  00,00,00,00,00,10,66,00,00,00,01,00,00,20,00,00,00,87,ab,2b,e2,e3,9e,75,c3,\
+  be,ba,b4,e6,21,ab,af,66,c8,68,ac,20,a4,4b,a5,84,06,f7,c3,10,36,12,24,52,00,\
+  00,00,00,0e,80,00,00,00,02,00,00,20,00,00,00,ef,48,23,cf,c3,25,08,85,91,8d,\
+  a8,e9,80,a5,da,fc,17,11,1d,d2,9e,91,2c,7b,4a,eb,5a,f4,1f,8e,1f,3c,b0,00,00,\
+  00,4c,8a,30,11,7c,e8,ad,9f,6d,ee,2a,65,3e,4a,d4,0c,77,11,22,51,c1,64,5d,c6,\
+  59,41,2d,11,e0,35,ae,fc,10,78,19,0d,e5,06,37,b2,88,ff,c7,8b,74,b7,b4,5c,6b,\
+  e0,f5,09,bb,08,1c,a6,2a,f4,ae,df,56,e5,74,c8,7a,8c,96,4b,21,12,aa,c7,c9,d5,\
+  52,bc,cb,b8,af,d3,61,f4,7c,a5,dc,98,70,29,5d,6d,d6,8e,f1,da,35,5f,da,a1,f8,\
+  0a,67,03,93,cc,da,79,2b,28,c6,8a,06,70,0e,ab,88,6f,86,4c,71,f6,02,89,99,af,\
+  cd,37,36,51,2f,bd,2c,c7,ce,eb,c8,00,83,e2,e4,e5,4d,cc,95,d6,54,20,f0,c1,f4,\
+  3c,43,d1,58,c0,96,74,ba,1a,6c,89,c6,47,a4,b3,87,d3,51,5b,39,61,15,62,2d,ca,\
+  70,cb,40,00,00,00,45,a0,3d,dd,9f,2f,ee,6b,cc,09,65,50,34,2a,eb,8c,31,cc,3c,\
+  c1,55,81,72,42,65,30,46,83,ff,21,67,e4,ca,55,c1,fa,6a,e7,01,19,26,90,28,d0,\
+  60,11,9b,d4,67,b4,35,67,f8,2e,3c,fb,19,db,f2,52,cd,7f,75,a2
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Action Center\Checks\{01979c6a-42fa-414c-b8aa-eee2c8202018}.check.101]
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Action Center\Checks\{11CD958A-C507-4EF3-B3F2-5FD9DFBD2C78}.check.101]
+"CheckSetting"=hex:23,00,41,00,43,00,42,00,6c,00,6f,00,62,00,00,00,00,00,00,00,\
+  00,00,00,00,01,00,00,00,00,00,00,00,00,00,00,00
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Action Center\Checks\{852FB1F8-5CC6-4567-9C0E-7C330F8807C2}.check.100]
+"CheckSetting"=hex:23,00,41,00,43,00,42,00,6c,00,6f,00,62,00,00,00,00,00,00,00,\
+  00,00,00,00,01,00,00,00,ff,ff,ff,ff,00,00,00,00
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Action Center\Checks\{852FB1F8-5CC6-4567-9C0E-7C330F8807C2}.check.101]
+"CheckSetting"=hex:23,00,41,00,43,00,42,00,6c,00,6f,00,62,00,00,00,00,00,00,00,\
+  00,00,00,00,01,00,00,00,fe,07,00,00,02,00,00,00
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Action Center\Checks\{945a8954-c147-4acd-923f-40c45405a658}.check.42]
+"CheckSetting"=hex:01,00,00,00,d0,8c,9d,df,01,15,d1,11,8c,7a,00,c0,4f,c2,97,eb,\
+  01,00,00,00,c3,0c,c6,43,be,8b,e5,4d,a4,44,52,9a,bd,27,73,5a,00,00,00,00,02,\
+  00,00,00,00,00,10,66,00,00,00,01,00,00,20,00,00,00,49,e3,94,09,51,5a,b0,04,\
+  4e,13,94,6d,e3,13,97,1a,bc,ca,a4,68,1b,aa,a0,5f,b0,83,c4,ff,35,6c,bf,31,00,\
+  00,00,00,0e,80,00,00,00,02,00,00,20,00,00,00,7f,6b,43,9c,4d,45,c4,5f,01,27,\
+  ca,03,4c,fc,84,5e,5e,52,da,33,8b,f6,07,e1,05,77,9a,46,89,d9,b6,12,b0,00,00,\
+  00,cd,5b,ad,dd,a2,a4,3f,70,61,e7,ce,90,8d,04,b3,a0,42,63,81,2f,2d,32,64,4d,\
+  2c,ce,c5,e1,e1,a8,83,40,56,31,93,51,d1,19,1a,c7,3e,35,5a,9d,1e,81,29,53,17,\
+  2e,6d,aa,a7,95,35,42,58,29,db,2f,41,33,50,2f,ba,39,b3,13,42,ca,f7,ab,41,b9,\
+  77,4c,7c,45,db,f3,5c,b4,c4,87,46,a7,2c,9b,04,7c,82,ac,d4,ce,26,0c,ef,7f,cd,\
+  be,d9,e4,7f,d5,21,a5,5e,1d,5f,c1,a9,e3,4c,a6,14,81,0c,8c,90,67,16,f0,98,e3,\
+  ae,5f,d9,77,bc,f8,a0,55,93,28,1f,79,9f,d4,bb,f6,16,b4,9f,0c,7b,1a,f7,68,67,\
+  b8,aa,69,fd,9a,74,6a,70,3f,9c,62,70,59,9b,ec,43,65,58,c6,60,c4,3a,85,c5,77,\
+  e0,b0,40,00,00,00,b4,54,db,35,ce,57,1f,4c,01,8a,ca,17,4f,48,ea,63,8b,b8,fc,\
+  65,fb,ca,60,d8,59,de,84,5f,00,d2,24,5d,9d,52,59,67,41,8a,b9,4f,1f,3f,40,d3,\
+  c4,8f,3d,19,88,62,dd,7e,89,77,c5,2c,6e,be,bf,d6,4a,8b,55,11
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Action Center\Checks\{A5268B8E-7DB5-465b-BAB7-BDCDA39A394A}.check.100]
+"CheckSetting"=hex:01,00,00,00,d0,8c,9d,df,01,15,d1,11,8c,7a,00,c0,4f,c2,97,eb,\
+  01,00,00,00,c3,0c,c6,43,be,8b,e5,4d,a4,44,52,9a,bd,27,73,5a,00,00,00,00,02,\
+  00,00,00,00,00,10,66,00,00,00,01,00,00,20,00,00,00,07,fa,86,1a,74,0b,29,cf,\
+  23,0a,67,38,ba,60,51,3e,95,f6,50,10,8b,40,74,63,9b,5b,69,1d,99,92,70,31,00,\
+  00,00,00,0e,80,00,00,00,02,00,00,20,00,00,00,21,dd,a1,b1,af,48,fe,8d,4b,c0,\
+  24,b7,de,5b,74,2b,24,7c,91,89,75,ff,d6,20,c2,b3,0d,10,87,8b,b2,7b,30,00,00,\
+  00,8b,95,8a,19,64,7f,31,c7,1a,ce,29,7f,2d,e1,05,b0,31,09,b3,71,2c,d5,80,60,\
+  23,82,c3,80,b6,5e,e3,6d,cd,8e,20,c4,8b,bd,42,96,70,d2,4e,ed,59,d3,eb,d8,40,\
+  00,00,00,e6,7b,33,bf,2a,00,3e,03,18,db,0b,0f,aa,a8,59,82,6e,d3,e6,96,e6,6c,\
+  66,ec,c6,af,db,8b,5a,a0,be,9a,cc,5e,b8,69,19,08,8d,1c,1d,6c,f5,dc,27,b9,ab,\
+  53,6d,46,45,26,1e,7b,08,f4,91,95,e6,0e,a7,0f,f8,b8
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Action Center\Checks\{C8E6F269-B90A-4053-A3BE-499AFCEC98C4}.check.0]
+"CheckSetting"=hex:01,00,00,00,d0,8c,9d,df,01,15,d1,11,8c,7a,00,c0,4f,c2,97,eb,\
+  01,00,00,00,c3,0c,c6,43,be,8b,e5,4d,a4,44,52,9a,bd,27,73,5a,00,00,00,00,02,\
+  00,00,00,00,00,10,66,00,00,00,01,00,00,20,00,00,00,21,cc,49,86,d5,62,76,3a,\
+  51,d0,ba,d0,24,fb,f5,cc,31,98,9b,06,3a,c6,7d,a2,f3,f1,ef,b2,5d,70,07,25,00,\
+  00,00,00,0e,80,00,00,00,02,00,00,20,00,00,00,bf,dc,2e,1e,33,78,df,57,cc,63,\
+  f0,a6,86,8a,6c,60,eb,c3,12,3f,ab,52,e5,97,4f,db,b1,89,24,07,6b,4d,30,00,00,\
+  00,ea,74,22,6c,4d,d5,d1,39,9f,fa,21,bd,ce,34,90,61,31,de,68,e3,92,00,1a,89,\
+  15,83,1f,9b,7a,06,69,3e,df,42,3a,02,f3,55,30,a2,6a,a3,8f,4c,2d,41,5e,f2,40,\
+  00,00,00,54,df,e8,30,71,88,d7,12,66,b2,a9,66,16,48,34,5a,37,ff,2a,0a,92,ed,\
+  6c,a1,8e,b3,c8,70,29,cd,1f,33,b6,2f,f3,76,93,bb,95,f8,2e,0d,27,60,08,b0,6b,\
+  bc,50,e2,b1,b2,89,c0,86,34,4b,73,25,59,03,a0,fe,19
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Action Center\Checks\{DAB69A6A-4D2A-4D44-94BF-E0091898C881}.check.100]
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Action Center\Checks\{E8433B72-5842-4d43-8645-BC2C35960837}.check.100]
+"CheckSetting"=hex:01,00,00,00,d0,8c,9d,df,01,15,d1,11,8c,7a,00,c0,4f,c2,97,eb,\
+  01,00,00,00,c3,0c,c6,43,be,8b,e5,4d,a4,44,52,9a,bd,27,73,5a,00,00,00,00,02,\
+  00,00,00,00,00,10,66,00,00,00,01,00,00,20,00,00,00,ec,1c,d5,5c,ad,85,7c,7b,\
+  ed,52,72,e1,91,cc,c0,0d,32,f4,5a,c4,d0,8c,5e,44,bc,71,d3,65,90,45,ba,61,00,\
+  00,00,00,0e,80,00,00,00,02,00,00,20,00,00,00,3c,70,3e,53,ed,93,5f,b3,01,e7,\
+  be,8b,41,1b,5a,2a,b3,7a,e1,06,06,8a,91,f0,1d,c9,be,b7,91,40,1c,c4,c0,00,00,\
+  00,0d,14,18,b3,c2,8c,12,e6,eb,76,9b,00,4a,0a,1d,5a,2f,dd,46,9c,07,dd,d2,aa,\
+  d4,a8,92,bd,0c,54,0f,43,23,f2,8b,3a,15,f6,a8,ee,93,f1,0c,48,79,3c,c6,07,ce,\
+  00,cf,b9,63,49,14,27,cc,a3,b4,bb,ac,91,35,43,93,3f,a7,0e,9d,dc,b5,d0,28,53,\
+  32,1c,85,dc,14,78,b1,b6,dc,07,72,18,c4,46,df,05,21,0c,9a,df,b7,b1,89,01,36,\
+  c1,e8,45,96,56,62,cb,1c,53,76,80,79,f5,a8,1e,6b,45,bf,c8,54,05,be,81,e3,d2,\
+  a6,f8,d0,1d,ea,78,eb,40,6b,6c,d5,1d,28,da,37,14,9d,97,34,3d,9e,8c,36,35,3d,\
+  de,12,34,78,e3,07,e1,c5,35,5f,7e,8d,1c,73,a7,a7,fe,c1,92,c4,ea,e5,83,e3,cc,\
+  43,23,8c,de,53,a3,fa,ed,31,40,7b,b3,36,7c,0e,de,85,75,40,00,00,00,24,e3,dd,\
+  a0,65,06,ca,2c,9e,5b,1f,81,f6,f8,3c,1f,34,7b,9d,66,7a,e2,67,6d,21,97,cc,e3,\
+  30,ac,79,f6,5f,bf,a1,a2,d2,32,c8,e4,7b,36,04,5c,28,62,80,85,f5,15,da,f2,9b,\
+  7d,a2,3b,5e,cc,2f,49,d4,85,41,34
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Action Center\Checks\{E8433B72-5842-4d43-8645-BC2C35960837}.check.101]
+"CheckSetting"=hex:01,00,00,00,d0,8c,9d,df,01,15,d1,11,8c,7a,00,c0,4f,c2,97,eb,\
+  01,00,00,00,c3,0c,c6,43,be,8b,e5,4d,a4,44,52,9a,bd,27,73,5a,00,00,00,00,02,\
+  00,00,00,00,00,10,66,00,00,00,01,00,00,20,00,00,00,9b,43,07,52,fc,6e,b4,40,\
+  06,fe,de,02,49,d3,88,57,d5,a9,3c,5f,79,82,13,57,59,a9,24,2d,68,d9,37,f5,00,\
+  00,00,00,0e,80,00,00,00,02,00,00,20,00,00,00,0c,06,d4,5b,cf,12,e3,a3,b2,c1,\
+  87,57,9b,61,0e,35,22,d7,78,7a,19,7f,03,5c,84,48,a5,e4,ec,7c,c7,35,30,00,00,\
+  00,e2,e1,12,a1,cf,6f,1c,e8,97,01,90,30,04,d3,43,18,5c,5b,f3,76,96,d3,20,c5,\
+  ab,b5,3b,14,cf,87,41,4a,03,41,24,92,0f,5e,ef,7d,15,eb,41,3c,f2,bf,a0,1d,40,\
+  00,00,00,0e,13,19,34,b9,a8,05,57,df,3c,76,21,af,b9,9e,12,aa,07,f4,7c,c0,79,\
+  66,63,09,36,d5,d0,71,89,a4,55,d9,1a,bb,5f,79,2f,59,a2,91,25,fc,95,86,b8,ad,\
+  a9,ce,fe,96,11,ea,c7,c1,d1,68,f8,c8,7b,4b,b6,b4,25
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Action Center\Checks\{E8433B72-5842-4d43-8645-BC2C35960837}.check.102]
+"CheckSetting"=hex:01,00,00,00,d0,8c,9d,df,01,15,d1,11,8c,7a,00,c0,4f,c2,97,eb,\
+  01,00,00,00,c3,0c,c6,43,be,8b,e5,4d,a4,44,52,9a,bd,27,73,5a,00,00,00,00,02,\
+  00,00,00,00,00,10,66,00,00,00,01,00,00,20,00,00,00,d3,07,83,9b,bd,b6,84,2d,\
+  c8,03,a6,15,6c,0e,29,0a,31,a7,d9,f6,be,65,d3,4f,8c,7d,3a,df,3f,5c,de,04,00,\
+  00,00,00,0e,80,00,00,00,02,00,00,20,00,00,00,69,c3,b2,c2,f2,31,e0,66,9a,01,\
+  96,dd,f7,1f,a2,35,25,eb,29,b4,c3,79,5d,42,18,e2,5f,19,42,d4,d4,cd,d0,00,00,\
+  00,7a,c7,f5,f0,64,74,1b,52,b9,2b,ff,df,cb,75,55,49,b2,d3,cb,51,fd,4c,56,65,\
+  65,bb,14,60,88,8e,ae,c3,ae,e5,3e,d1,02,da,95,9c,3f,f9,e0,03,10,8a,e4,46,ef,\
+  00,ba,92,a1,81,b4,98,ad,d5,4c,61,50,12,51,c1,d7,d0,7c,1f,48,d3,1e,d9,f7,13,\
+  42,4d,5a,9e,50,78,93,f9,5a,d8,4f,86,09,bf,5e,61,ec,4a,90,82,1d,d0,1a,da,57,\
+  9c,ae,16,b2,ca,8c,c1,13,36,03,e1,a0,81,da,44,30,f1,a8,fe,d2,8c,c0,75,d0,79,\
+  7a,2a,ef,de,25,01,c7,a2,db,03,c5,01,74,d5,92,61,3b,6b,f1,e3,7d,b7,14,bf,d5,\
+  67,d1,ef,8f,3f,41,9a,3f,b4,2f,ca,3e,40,b8,2a,9f,a1,a3,ef,fa,75,57,f0,14,2a,\
+  59,72,5b,15,47,b2,fc,b0,95,83,fd,c3,03,f8,cf,c2,57,f2,e4,98,d6,0c,b8,8f,b8,\
+  c9,e1,3c,15,aa,d2,bf,da,2c,40,00,00,00,6c,cd,68,fc,3e,83,22,4a,e4,e6,b3,23,\
+  a3,9f,7a,46,0c,bc,ad,bc,54,65,f6,65,04,c9,0f,3f,57,fb,3e,7f,7d,ed,ef,82,e1,\
+  13,82,f5,64,02,4a,25,a1,0a,06,dc,98,9c,2e,96,b9,d4,18,a5,6c,eb,b6,0c,c8,91,\
+  65,ee
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Action Center\Checks\{E8433B72-5842-4d43-8645-BC2C35960837}.check.103]
+"CheckSetting"=hex:01,00,00,00,d0,8c,9d,df,01,15,d1,11,8c,7a,00,c0,4f,c2,97,eb,\
+  01,00,00,00,c3,0c,c6,43,be,8b,e5,4d,a4,44,52,9a,bd,27,73,5a,00,00,00,00,02,\
+  00,00,00,00,00,10,66,00,00,00,01,00,00,20,00,00,00,34,68,3e,8b,93,ad,b8,f4,\
+  a2,d1,e7,af,8c,77,d3,f5,1d,b9,d9,84,7f,70,64,f6,85,10,1a,cf,a8,e8,db,e9,00,\
+  00,00,00,0e,80,00,00,00,02,00,00,20,00,00,00,1a,93,fc,99,12,f3,84,d3,84,da,\
+  ad,53,82,69,89,b9,a5,e7,2f,a5,ff,cd,49,21,c6,ae,71,c9,a7,66,47,d4,30,00,00,\
+  00,b2,cb,11,bb,68,6c,e3,27,69,9b,45,9b,07,b2,27,24,ea,fe,e1,f9,39,e2,cc,a3,\
+  be,3f,cd,c4,64,55,bb,e5,6b,d1,5c,db,7d,85,2f,fa,be,56,1c,81,46,99,60,8b,40,\
+  00,00,00,bf,b4,83,4e,ea,41,38,86,48,fc,61,3e,fd,0a,d9,7a,62,6f,e0,b1,ac,1d,\
+  c2,07,f6,69,a0,7a,13,a1,c1,1b,ee,ff,5c,78,38,d2,6e,48,26,94,55,c3,c0,8d,50,\
+  1c,cc,2a,61,68,c3,ed,d7,79,d3,26,59,2e,26,67,cd,7b
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Action Center\Checks\{E8433B72-5842-4d43-8645-BC2C35960837}.check.104]
+"CheckSetting"=hex:01,00,00,00,d0,8c,9d,df,01,15,d1,11,8c,7a,00,c0,4f,c2,97,eb,\
+  01,00,00,00,c3,0c,c6,43,be,8b,e5,4d,a4,44,52,9a,bd,27,73,5a,00,00,00,00,02,\
+  00,00,00,00,00,10,66,00,00,00,01,00,00,20,00,00,00,55,8b,ef,0f,e0,5f,53,17,\
+  7a,d9,93,ba,ca,76,b9,5d,dd,88,b3,00,3a,54,a8,2b,9e,f3,04,a9,4d,30,e6,75,00,\
+  00,00,00,0e,80,00,00,00,02,00,00,20,00,00,00,04,15,c0,31,0d,42,86,d4,83,74,\
+  ab,19,f8,84,8f,3a,78,26,1b,a4,00,ac,53,9b,66,4a,e6,16,fe,14,aa,e1,30,00,00,\
+  00,71,55,e6,00,c7,9c,22,e1,25,d3,a4,da,31,18,96,cc,80,3a,37,4a,90,a8,f9,53,\
+  bd,82,9e,12,92,47,1c,ed,97,ee,62,3b,10,1b,ca,1f,4e,e5,4b,76,ec,18,8e,32,40,\
+  00,00,00,ca,d3,b2,d7,b6,5f,db,fc,c8,cb,71,d0,5f,c1,bc,46,47,a6,c2,27,3d,c7,\
+  13,05,5f,7d,11,d5,96,9a,ad,e6,25,89,2f,8f,d3,b3,2b,2a,cb,c6,b2,5b,37,22,96,\
+  d6,99,e8,98,c9,5c,84,aa,bd,c9,09,6a,05,74,b8,b4,87
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Action Center\Checks\{E8433B72-5842-4d43-8645-BC2C35960837}.check.106]
+"CheckSetting"=hex:23,00,41,00,43,00,42,00,6c,00,6f,00,62,00,00,00,00,00,00,00,\
+  00,00,00,00,01,00,00,00,3a,04,3b,04,00,00,5d,00
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoActiveDesktop"=dword:00000001
+"ForceActiveDesktopOn"=dword:00000000
+"NoActiveDesktopChanges"=hex:00,00,00,00
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\lanmanserver\parameters]
+"AutoShareServer"=dword:00000000
+"AutoShareWorkstation"=dword:00000000
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\NetworkProvider]
+"RestoreConnection"=dword:00000000
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon]
+"AutoRestartShell"=dword:00000000
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\IniFileMapping\autorun.inf]
+@="@SYS:DoesNotExist"
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoDriveTypeAutoRun"=dword:00000255
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\WebView\BarricadedFolders\]
+"shell:ControlPanelFolder"=dword:00000000
+"shell:SystemDriveRootFolder"=dword:00000000
+"shell:ProgramFiles"=dword:00000000
+"shell:Windows"=dword:00000000
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoResolveTrack"=dword:00000001
+"NoResolveSearch"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters]
+"NetFailureCacheTime"=dword:00000000
+"NegativeSOACacheTime"=dword:00000000
+"NegativeCacheTime"=dword:00000000
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoStartBanner"=dword:00000001
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Desktop\CleanupWiz]
+"NoRun"="1"
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows NT\Driver Signing]
+"BehaviorOnFailedVerify"=dword:00000000
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Driver Signing]
+"Policy"=hex:00
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Non-Driver Signing]
+"Policy"=hex:00
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PCHealth\ErrorReporting]
+"DoReport"=dword:00000000
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\]
+"AllowMultipleTSSessions"=dword:00000000
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\policies\System]
+"NoInternetOpenWith"=dword:00000001
+"InternetOpenWith"=dword:00000000
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"InternetOpenWith"=dword:00000000
+"NoInternetOpenWith"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\comdlg32]
+"NoFileMru"=dword:00000001
+"NoMru"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Network]
+"NoFileSharing"=dword:00000001
+"NoPrintSharing"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Eventlog\Application]
+"RestrictGuestAccess"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Eventlog\Security]
+"RestrictGuestAccess"=dword:00000001
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\ActiveDesktop]
+"NoChangingWallPaper"=-
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\ActiveDesktop]
+"NoChangingWallPaper"=-
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System]
+"Wallpaper"=-
+"WallpaperStyle"=-
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System]
+"Wallpaper"=-
+"WallpaperStyle"=-
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters]
+"AutoShareWks"=dword:00000000
+"AutoShareServer"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa]
+"nolmhash"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoLowDiskSpaceChecks"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Messenger\Client]
+"PreventAutoRun"=dword:00000001
+"PreventRun"=dword:00000001
+[HKEY_CURRENT_USER\Control Panel\Mouse]
+"SmoothMouseXCurve"=hex:00,00,00,00,00,00,00,00,00,a0,00,00,00,00,00,00,00,40,01,00,00,00,00,00,00,E0,01,00,00,00,00,00,00,80,02,00,00,00,00,00
+"SmoothMouseYCurve"=hex:00,00,00,00,00,00,00,00,66,a6,02,00,00,00,00,00,cd,4c,05,00,00,00,00,00,32,f3,07,00,00,00,00,00,a0,99,0a,00,00,00,00,00
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings]
+"EnableNegotiate"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NetBT\Parameters]
+"SMBDeviceEnabled"=dword:00000001
+"EnableLMHOSTS"=dword:00000000
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile]
+"NetworkThrottlingIndex"=dword:FFFFFFFF
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoSaveSettings"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Lanmanserver\Parameters]
+"NullSessionPipes"=""
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Environment]
+"SEE_MASK_NOZONECHECKS"="1"
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Download]
+"CheckExeSignatures"="no"
+"RunInvalidSignatures"=dword:00000001
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Associations]
+"LowRiskFileTypes"=".zip;.rar;.nfo;.txt;.exe;.bat;.com;.cmd;.reg;.msi;.htm;.html;.gif;.bmp;.jpg;.avi;.mpg;.mpeg;.mov;.mp3;.m3u;.wav;"
+"DefaultFileTypeRisk"=dword:00001808
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Attachments]
+"SaveZoneInformation"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon]
+"ParseAutoexec"="0"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MessengerService]
+"PassportBalloon"=hex:0a
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\PCT 1.0\Client]
+"Enabled"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\PCT 1.0\Server]
+"Enabled"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\BITS\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\ESENT\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\Lsa\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\MSSCNTRS\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\rdyboost\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\UGatherer\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\UGTHRSVC\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\usbhub\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\WSearchIdxPi\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\.NET CLR Data\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\.NET CLR Networking\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\.NET Data Provider for Oracle\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\.NET Data Provider for SqlServer\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\.NETFramework\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ASP.NET\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ASP.NET_2.0.50727\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ASP.NET_64\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ASP.NET_64_2.0.50727\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\aspnet_state\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ContentFilter\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ContentIndex\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\IPSec\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ISAPISearch\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MSDTC\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MSDTC Bridge 3.0.0.0\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfDisk\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfNet\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfProc\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PSched\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RemoteAccess\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ServiceModelEndpoint 3.0.0.0\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ServiceModelOperation 3.0.0.0\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ServiceModelService 3.0.0.0\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SMSvcHost 3.0.0.0\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Spooler\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\TapiSrv\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\TermService\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Windows Workflow Foundation 3.0.0.0\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WmiApRpl\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Audio]
+"DisableProtectedAudioDG"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoRecentDocsMenu"=dword:00000001
+"NoRecentDocsNetHood"=hex:01,00,00,00
+"NoRecentDocsHistory"=hex:01,00,00,00
+"ClearRecentDocsOnExit"=hex:01,00,00,00
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoRecentDocsMenu"=dword:00000001
+"NoRecentDocsNetHood"=hex:01,00,00,00
+"NoRecentDocsHistory"=hex:01,00,00,00
+"ClearRecentDocsOnExit"=hex:01,00,00,00
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Ole]
+"EnableDCOM"="N"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Rpc]
+"DCOM Protocols"=hex(7):00
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Attachments]
+"ScanWithAntiVirus"=dword:00000000
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Attachments]
+"ScanWithAntiVirus"=dword:00000000
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Main]
+"Disable Script Debugger"="yes"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Security Center]
+"FirstRunDisabled"=dword:00000001
+"AntiVirusDisableNotify"=dword:00000001
+"FirewallDisableNotify"=dword:00000001
+"UpdatesDisableNotify"=dword:00000001
+"AntiVirusOverride"=dword:00000001
+"FirewallOverride"=dword:00000001
+[HKEY_CLASSES_ROOT\PROTOCOLS\Handler\shell]
+"CLSID"="{3050F406-98B5-11CF-BB82-00AA00BDCE0B}"
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer]
+"link"=hex:00,00,00,00
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\Reliability]
+"ShutdownReasonOn"=dword:00000000
+"ShutdownReasonUI"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa]
+"forceguest"=dword:00000000
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"SmoothScroll"=dword:00000000
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoLogOff"=dword:1
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ACPI\Parameters]
+"Attributes"=dword:70
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Documents]
+"DisableStartInMyDocs"=dword:00000001
+[HKEY_CURRENT_USER\Control Panel\Accessibility\StickyKeys]
+"Flags"="506"
+[HKEY_CURRENT_USER\Software\AutoPatcher\Tweaks\Functionality]
+"disableStickyKeys"="20060416"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SystemRestore]
+"DisableSR"=dword:00000001
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"TaskbarGlomming"=dword:00000000
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DataCollection]
+"AllowTelemetry"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\DiagTrack]
+"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\dmwappushservice]
+"Start"=dword:00000004
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\AdvertisingInfo]
+"Enabled"=dword:00000000
+[HKEY_CURRENT_USER\Control Panel\International\User Profile]
+"HttpAcceptLanguageOptOut"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\InputPersonalization]
+"RestrictImplicitTextCollection"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\InputPersonalization\TrainedDataStore]
+"HarvestContacts"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Personalization\Settings]
+"AcceptedPrivacyPolicy"=dword:00000000
+"RestrictImplicitInkCollection"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Search]
+"CanCortanaBeEnabled"=dword:00000000
+"CortanaEnabled"=dword:00000000
+"BingSearchEnabled"=dword:00000000
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\AppCompat]
+"AITEnable"=dword:00000000
+"DisableInventory"=dword:00000001
+"DisableUAR"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CloudContent]
+"DisableSoftLanding"=dword:00000001
+[HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\SQMClient\Windows]
+"CEIPEnable"=dword:00000000
+[HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Internet Explorer\SQM]
+"DisableCustomerImprovementProgram"=dword:00000001
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Applets\Tour]
+"RunCount"=dword:00000000
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Applets\Tour]
+"RunCount"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server]
+"fAllowFullControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server]
+"fAllowToGetHelp"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server]
+"AllowTSConnections"=dword:00000000
+"fDenyTSConnections"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
+"EnableLUA"=dword:00000000
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DirectPlayNATHelp\DPNHUPnP]
+"UPnPMode"=dword:00000002
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\UnreadMail]
+"MessageExpiryDays"=dword:00000000
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoInstrumentation"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer]
+"NoInstrumentation"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WBEM\CIMOM]
+"Logging"="0"
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\W3SVC\Parameters]
+"DisableWebDAV"=dword:00000001
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\tips]
+"Show"=dword:00000000
+[HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics]
+MinAnimate="0"
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\Windows Error Reporting]
+"Disabled"=dword:00000001
+"DontShowUI"=dword:00000001
+"MaxArchiveCount"=dword:00000010
+"MaxQueueCount"=dword:00000010
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Windows Error Reporting]
+"Disabled"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Windows Error Reporting\ExcludedApplications]
+"vswitch64.exe"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Installer]
+"EnableAdminTSRemote"=dword:00000000
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Policies\Microsoft\Windows\Installer]
+"EnableAdminTSRemote"=dword:00000000
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WBEM\CIMOM]
+"Logging"="0"
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters]
+"CacheHashTableBucketSize"=dword:00000001
+"CacheHashTableSize"=dword:00000180
+"MaxCacheEntryTtlLimit"=dword:0000fa00
+"MaxSOACacheEntryTtlLimit"=dword:0000012d
+"MaxNegativeCacheTtl"=dword:00000000
+"MaxCacheTtl"=dword:00003840
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\policies\system]
+"dontdisplaylastusername"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\MRT]
+"DontReportInfectionInformation"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem]
+"DontVerifyRandomDrivers"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]
+"ActiveXCache"="D:\\WindowsLinks\\Downloaded Program Files"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DeviceInstall\Settings]
+"DisableBalloonTips"=dword:00000001
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"EnableBalloonTips"=dword:00000001
+"StartButtonBalloonTip"=dword:00000001
+"ShowInfoTip"=dword:00000001
+"FolderContentsInfoTip"=dword:00000001
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\tips]
+"Show"=dword:00000001
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"FontSmoothing"="2"
+"FontSmoothingOrientation"=dword:00000001
+"FontSmoothingType"=dword:00000002
+"FontSmoothingGamma"=dword:000003e8
+[HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\WindowsUpdate]
+"ElevateNonAdmins"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoFolderOptions"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem]
+"LongPathsEnabled"=dword:00000001
+[HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\Open With]
+@="{09799AFB-AD67-11d1-ABCD-00C04FC30936}"
+[HKEY_CURRENT_USER\Console]
+"QuickEdit"=dword:00000001
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\ActiveDesktop]
+"NoChangingWallPaper"=dword:00000000
+"NoAddingComponents"=dword:00000000
+"NoComponents"=dword:00000000
+"NoDeletingComponents"=dword:00000000
+"NoEditingComponents"=dword:00000000
+"NoCloseDragDropBands"=dword:00000000
+"NoMovingBands"=dword:00000000
+"NoHTMLWallPaper"=dword:00000000
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System]
+"NoDispAppearancePage"=dword:00000000
+"NoDispBackgroundPage"=dword:00000000
+"NoDispCPL"=dword:00000000
+"NoDispScrSavPage"=dword:00000000
+"NoDispSettingsPage"=dword:00000000
+"NoColorChoice"=dword:00000000
+"NoSizeChoice"=dword:00000000
+"NoVisualStyleChoice"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoCDBurning"=dword:00000001
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"DisableThumbnailCache"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Update]
+"UpdateMode"=hex:00
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\CabinetState]
+"FullPath"=dword:00000001
+"FullPathAddress"=dword:00000001
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"HideFileExt"=dword:00000000
+"Hidden"=dword:00000001
+"SuperHidden"=dword:00000001
+"ShowSuperHidden"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer]
+"Max Cached Icons"="5000"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer]
+"Max Cached Icons"="5000"
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"NoNetCrawling"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Network]
+"NoNetHood"=dword:00000001
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"FriendlyTree"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoRemoteRecursiveEvents"=dword:00000001
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer]
+"SearchSystemDirs"=dword:00000001
+"SearchHidden"=dword:00000001
+"IncludeSubFolders"=dword:00000001
+"CaseSensitive"=dword:00000000
+"SearchSlowFiles"=dword:00000000
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\CabinetState]
+"FullPath"=dword:00000001
+"FullPathAddress"=dword:00000001
+"Use Search Asst"="no"
+"Settings"=hex:0c,00,02,00,1b,01,e7,77,60,00,00,00
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\ContentIndex]
+"FilterFilesWithUnknownExtensions"=dword:00000001
+[HKEY_CURRENT_USER\Software\Microsoft\Search Assistant]
+"Actor"=""
+"SocialUI"=dword:00000000
+"UsageCount"=dword:00000000
+"UseAdvancedSearchAlways"=dword:00000001
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"SeparateProcess"=dword:00000001
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer]
+"DesktopProcess"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer]
+"EnableAutoTray"=dword:00000000
+"NoFileFolderConnection"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"CascadeControlPanel"="yes"
+"CascadeMyDocuments"="no"
+"CascadePrinters"="no"
+"DisableThumbnailCache"=dword:00000001
+"Hidden"=dword:00000001
+"HideFileExt"=dword:00000000
+"IntelliMenus"=dword:00000001
+"ListviewAlphaSelect"=dword:00000001
+"ListviewShadow"=dword:00000000
+"ListviewWatermark"=dword:00000000
+"NoNetCrawling"=dword:00000001
+"NoSMHelp"=dword:00000001
+"SeparateProcess"=dword:00000001
+"ShowSuperHidden"=dword:00000001
+"Start_LargeIcons"=dword:00000000
+"Start_LargeMFUIcons"=dword:00000000
+"Start_MinMFU"=dword:00000010
+"Start_ShowControlPanel"=dword:00000002
+"Start_ShowHelp"=dword:00000000
+"Start_ShowMyComputer"=dword:00000001
+"Start_ShowMyDocs"=dword:00000001
+"Start_ShowPrinters"=dword:00000000
+"SuperHidden"=dword:00000000
+"TaskbarAnimations"=dword:00000000
+"TaskbarGlomming"=dword:00000000
+"TaskbarSizeMove"=dword:00000000
+"WebViewBarricade"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CabinetState]
+"FullPath"=dword:00000001
+"FullPathAddress"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\ClassicStartMenu]
+"{208D2C60-3AEA-1069-A2D7-08002B30309D}"=dword:00000001
+"{20D04FE0-3AEA-1069-A2D8-08002B30309D}"=dword:00000000
+"{450D8FBA-AD25-11D0-98A8-0800361B1103}"=dword:00000000
+"{645FF040-5081-101B-9F08-00AA002F954E}"=dword:00000000
+"{871C5380-42A0-1069-A2EA-08002B30309D}"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel]
+"{208D2C60-3AEA-1069-A2D7-08002B30309D}"=dword:00000001
+"{20D04FE0-3AEA-1069-A2D8-08002B30309D}"=dword:00000000
+"{450D8FBA-AD25-11D0-98A8-0800361B1103}"=dword:00000000
+"{645FF040-5081-101B-9F08-00AA002F954E}"=dword:00000000
+"{871C5380-42A0-1069-A2EA-08002B30309D}"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\SmallIcons]
+"SmallIcons"="yes"
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Toolbar\WebBrowser]
+"ITBar7Position"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]
+"DisablePasswordCaching"=dword:00000001
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main]
+"Check_Associations"="no"
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main]
+"Enable_MyPics_Hoverbar"="no"
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\InformationBar]
+"FirstTime"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\CTF\LangBar]
+"ShowStatus"=dword:00000003
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Cache\]
+"Persistent"=dword:00000000'
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Cache\]
+"Persistent"=dword:00000000
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\PhishingFilter]
+"Enabled"="0"
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Main]
+"ShowGoButton"="no"
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Connection Wizard]
+"Completed"=dword:00000001
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings]
+"MaxConnectionsPerServer"=dword:00000010
+"MaxConnectionsPer1_0Server"=dword:00000010
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Main]
+"NotifyDownloadComplete"="no"
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\P3P]
+"1004"=dword:00000003
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_SECURITYBAND]
+"(Reserved)"="0"
+"explorer.exe"="0"
+"iexplore.exe"="0"
+"wmplayer.exe"="0"
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main]
+"Start Page"="about:blank"
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
+"SystemPages"=dword:ffffffff
+"LargePageMinimum"=dword:ffffffff
+"DontVerifyRandomDrivers"=dword:00000001
+"DisablePagingExecutive"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem]
+"DontVerifyRandomDrivers"=dword:00000001
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"MenuShowDelay"="1"
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"WheelScrollLines"="5"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Installer]
+"EnableUserControl"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Installer]
+"DisableBrowse"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\lanmanworkstation\parameters]
+"MaxCmds"=dword:00000064
+"MaxThreads"=dword:00000064
+"MaxCollectionCount"=dword:00000064
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Rpc]
+"MaxRpcSize"=dword:00100000
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\WindowsUpdate\AU]
+"NoAutoRebootWithLoggedOnUsers"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU]
+"NoAutoRebootWithLoggedOnUsers"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Outlook Express]
+"Hide Messenger"=dword:00000002
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Psched]
+"NonBestEffortLimit"=dword:00000000
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\BitBucket]
+"UseGlobalSettings"=dword:00000001
+"Percent"=dword:00000064
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\BitBucket]
+"UseGlobalSettings"=dword:00000001
+"Percent"=dword:00000064
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\CLSID\{645FF040-5081-101B-9F08-00AA002F954E}]
+@="Compost"
+[HKEY_CLASSES_ROOT\CLSID\{645FF040-5081-101B-9F08-00AA002F954E}\ShellFolder]
+"Attributes"=hex:70,10,00,20
+"CallForAttributes"=dword:00000040
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Applets\Regedit\Favorites]
+"RegEdit Favs"="Computer\\HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Applets\\Regedit\\Favorites"
+"TaskMan"="Computer\\HKEY_CURRENT_USER\\Software\\Microsoft\\Windows NT\\CurrentVersion\\TaskManager"
+"Context Menu"="Computer\\HKEY_CLASSES_ROOT\\*\\shellex\\ContextMenuHandlers"
+"CLSID"="Computer\\HKEY_CLASSES_ROOT\\CLSID"
+"Applications"="Computer\\HKEY_CLASSES_ROOT\\Applications"
+"Directory"="Computer\\HKEY_CLASSES_ROOT\\Directory"
+"Drive"="Computer\\HKEY_CLASSES_ROOT\\Drive"
+"Folder"="Computer\\HKEY_CLASSES_ROOT\\Folder"
+"Shell Folders LM"="Computer\\HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders"
+"Shell Folders LM32"="Computer\\HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders"
+"Shell Folders CU"="Computer\\HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders"
+"Winlogon"="Computer\\HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon"
+"SessionManager"="Computer\\HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Session Manager"
+"Services"="Computer\\HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services"
+"SystemFileAssociations"="Computer\\HKEY_CLASSES_ROOT\\SystemFileAssociations"
+"Components(visc++FIX)"="Computer\\HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData"
+"MozillaPlugins"="Computer\\HKEY_LOCAL_MACHINE\\SOFTWARE\\MozillaPlugins"
+"MozillaPlugins(U)"="Computer\\HKEY_CURRENT_USER\\Software\\MozillaPlugins"
+"MozillaPlugins(32)"="Computer\\HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\MozillaPlugins"
+"App Paths LM"="Computer\\HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\App Paths"
+"Run LM"="Computer\\HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run"
+"Run CU"="Computer\\HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Run"
+"Run LM32"="Computer\\HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Run"
+"CPL(x86)"="Computer\\HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\explorer\\ControlPanel\\NameSpace"
+"CPL(x64)"="Computer\\HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\ControlPanel\\NameSpace"
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa]
+"restrictanonymous"=dword:00000001
+"restrictanonymoussam"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\HTTP\Parameters]
+"AllowRestrictedChars"=dword:00000000
+"EnableNonUTF8"=dword:00000001
+"FavorUTF8"=dword:00000001
+"MaxConnections"=dword:7fffffff
+"MaxEndpoints"=dword:00000000
+"MaxFieldLength"=dword:00004000
+"MaxRequestBytes"=dword:00004000
+"PercentUAllowed"=dword:00000001
+"UrlSegmentMaxCount"=dword:000000ff
+"UriEnableCache"=dword:00000001
+"UriMaxUriBytes"=dword:00040000
+"UriScavengerPeriod"=dword:00000078
+"UrlSegmentMaxLength"=dword:00000104
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\AeLookupSvc]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Alerter]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ALG]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\AppMgmt]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\AudioSrv]
+"Start"=dword:00000002
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BITS]
+"Start"=dword:00000002
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Browser]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\cisvc]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ClipSrv]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\clr_optimization_v2.0.50727_32]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\clr_optimization_v2.0.50727_64]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\COMSysApp]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\xmlprov]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\CryptSvc]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Dhcp]
+"Start"=dword:00000002
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\dmadmin]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\dmserver]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Dnscache]
+"DisplayName"="DNS Cache"
+"ErrorControl"=dword:00000000
+"Start"=dword:00000003
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ERSvc]
+"ErrorControl"=dword:00000000
+"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Eventlog]
+"Start"=dword:00000002
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\EventSystem]
+"ErrorControl"=dword:00000000
+"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\FastUserSwitchingCompatibility]
+"ErrorControl"=dword:00000000
+"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\helpsvc]
+"ErrorControl"=dword:00000000
+"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\HidServ]
+"ErrorControl"=dword:00000000
+"Start"=dword:00000002
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ImapiService]
+"ErrorControl"=dword:00000000
+"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\lanmanserver]
+"ErrorControl"=dword:00000000
+"Start"=dword:00000003
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\lanmanworkstation]
+"ErrorControl"=dword:00000000
+"Start"=dword:00000002
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LmHosts]
+"ErrorControl"=dword:00000000
+"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Messenger]
+"ErrorControl"=dword:00000000
+"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\mnmsrvc]
+"ErrorControl"=dword:00000000
+"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MSDTC]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MSIServer]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NetDDE]
+"ErrorControl"=dword:00000000
+"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NetDDEdsdm]
+"ErrorControl"=dword:00000000
+"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Netlogon]
+"ErrorControl"=dword:00000000
+"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Netman]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+"ImagePath"=hex(2):73,79,73,74,65,6d,33,32,5c,73,76,63,68,6f,73,74,2e,65,78,65,20,2d,6b,20,6e,65,74,73,76,63,73,00
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Nla]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NtLmSsp]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NtmsSvc]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PlugPlay]
+"Start"=dword:00000002
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PolicyAgent]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ProtectedStorage]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RasAuto]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RasMan]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RDSessMgr]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RemoteAccess]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RemoteRegistry]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RpcLocator]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RSVP]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SamSs]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SCardDrv]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SCardSvr]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Schedule]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\seclogon]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SENS]
+"ErrorControl"=dword:00000000
+"Start"=dword:00000003
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SharedAccess]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\httpfilter]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ShellHWDetection]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Spooler]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\spupdsvc]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\srservice]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SSDPSRV]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\stisvc]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SwPrv]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SysmonLog]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\TapiSrv]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\TermService]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Themes]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\TlntSvr]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\TrkWks]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\uploadmgr]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\upnphost]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\UPS]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\VSS]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\W32Time]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WebClient]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\winmgmt]
+"Start"=dword:00000002
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WmdmPmSp]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Wmi]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WmiApSrv]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\wuauserv]
+"Start"=dword:00000002
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WZCSVC]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\wscsvc]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\sr]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Dcomlaunch]
+"Start"=dword:00000002
+"ErrorControl"=dword:00000000
+"FailureActions"=hex:80,51,01,00,00,00,00,00,00,00,00,00,03,00,00,00,14,00,00,00,01,00,00,00,60,ea,00,00,01,00,00,00,60,ea,00,00,01,00,00,00,60,ea,00,00
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RpcSs]
+"Start"=dword:00000002
+"ErrorControl"=dword:00000001
+"FailureActions"=hex:80,51,01,00,00,00,00,00,00,00,00,00,03,00,00,00,14,00,00,00,01,00,00,00,60,ea,00,00,01,00,00,00,60,ea,00,00,01,00,00,00,60,ea,00,00
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\clr_optimization_v2.0.50727_32]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\aspnet_state]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WmdmPmSN]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WMConnectCDS]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\UMWdf]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Alerter]
+"Description"="Notifies selected users and computers of administrative alerts. If the service is stopped, programs that use administrative alerts will not receive them. If this service is disabled, any services that explicitly depend on it will fail to start. BlackViper.com adds this: This service usually is not required under normal circumstances. Note: This is NOT 'WinPopUp.'"
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ALG]
+"Description"="Provides support for 3rd party protocol plug-ins for Internet Connection Sharing and the Internet Connection Firewall. BlackViper.com adds this: This service is required if using Internet Connection Sharing / Internet Connection Firewall to connect to the internet. This service uses about 1.5 MB of memory in an idle state."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\AppMgmt]
+"Description"="Provides software installation services such as Assign, Publish, and Remove. BlackViper.com adds this: If you cannot modify your software installation of certain applications, put this service in to Automatic or Manual."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\AudioSrv]
+"Description"="Manages audio devices for Windows-based programs. If this service is stopped, audio devices and effects will not function properly. If this service is disabled, any services that explicitly depend on it will fail to start. BlackViper.com adds this: This service is required if you wish to hear any audio at all. If your computer does not have a sound card, disable this service."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BITS]
+"Description"="Uses idle network bandwidth to transfer data. BlackViper.com adds this: This service is used to transfer asynchronous data via http1.1 servers. According to Microsoft's site, Windows Update uses this feature. It continues a download if you log off or shutdown the system (that is, when you log back in). The problem with that is, I do not like having this feature running all of the time. Even though I have found no side effects as to this being disabled, you may require this service for some MSN Explorer, Windows Messenger, Windows Media Player or future .NET functions. Take note: Manual (and Automatic) updates via Windows Update Version 5 web site requires Cryptographic Services, Background Intelligent Transfer Service, and Event Log to be running. Place All three in to automatic if you do not wish to update manually."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Browser]
+"Description"="Maintains an updated list of computers on the network and supplies this list to computers designated as browsers. If this service is stopped, this list will not be updated or maintained. If this service is disabled, any services that explicitly depend on it will fail to start. BlackViper.com adds this: This service is not required on a standalone system. In fact, even if you want to browse the network (workgroup or domain) or have mapped network shares as local hard drives, you can still do so. On a large network, one computer is designated the 'master' browser and another one is the 'backup' browser. All others just announce they are available every 12 minutes to take over duties if one of the other computers fail. No lag time is discernable if this service remains disabled on all but one computer. Honestly, I do not even believe one needs to be running. You could, just in case, but it sure does not need to be running on all computers, all of the time."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\cisvc]
+"Description"="Indexes contents and properties of files on local and remote computers; provides rapid access to files through flexible querying language. BlackViper.com adds this: This service always has been a major resource hog. I NEVER recommend having this service enabled. Remove the function via the 'Add / Remove Programs' icon in the control panel (Windows Setup Programs). It uses about 500 K to 2 MB in an idle state, not to mention the amount of memory and CPU resources it takes to INDEX the drives. I have had people (and witnessed it on other people's computers) report to me that the Indexing Service sometimes starts up EVEN while the system is NOT idle... as in the middle of a game. You may feel, as I do, that this is unacceptable. If your computer suddenly seems 'sluggish,' Indexing Service is usually the cause of it."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ClipSrv]
+"Description"="Enables ClipBook Viewer to store information and share it with remote computers. If the service is stopped, ClipBook Viewer will not be able to share information with remote computers. If this service is disabled, any services that explicitly depend on it will fail to start. BlackViper.com adds this: Used to store information (cut/paste) and share it with other computers. I have never found enough need for this to allow this service to always be running. This service alone uses about 1.3 MB of memory."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\COMSysApp]
+"Description"="Manages the configuration and tracking of Component Object Model (COM)+ based components. If the service is stopped, most COM+ based components will not function properly. If this service is disabled, any services that explicitly depend on it will fail to start. BlackViper.com adds this: You will receive, in the Event Log, an entry from 'DCOM' complaining about not having this service running if disabled. I am unaware of any application that uses COM+, but if set to manual, many services report to it, so it will start anyway. For the fun of it, go to Program Files, ComPlus Applications, on your system, see if you have any installed COM+ Applications. If not, you can probably disable this service with no side effects (besides the Event Log complaining upon reboots). This service is required for System Event Notification."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\CryptSvc]
+"Description"="Provides three management services: Catalog Database Service, which confirms the signatures of Windows files; Protected Root Service, which adds and removes Trusted Root Certification Authority certificates from this computer; and Key Service, which helps enroll this computer for certificates. If this service is stopped, these management services will not function properly. If this service is disabled, any services that explicitly depend on it will fail to start. BlackViper.com adds this: Mainly, it confirms signatures of Windows files. You may always get a dialog box complaining about uncertified drivers if this is disabled. This service is required for Windows Update to function in manual and automatic mode and this service is required to install Service Pack 1 unified updates and DirectX 9.0. Windows Media Player and future .NET applications may also require this service for some features to function. This service uses about 1.9 MB of memory."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Dhcp]
+"Description"="Manages network configuration by registering and updating IP addresses and DNS names. BlackViper.com adds this: This service automatically receives a Dynamic IP address from your DHCP server and DNS updates. Required for ICS - internet client and if you run IPSEC, disable on a standalone system or one that has a static IP address. Take note: Most DSL or cable ISP's use DHCP to provide internet access. If you disable this service and your Internet connection no longer works, place this back into automatic. Most DSL and cable hardware routers have the option of enabling a DHCP server for the internal network. Ensure that the router is configured the same as your local PC's."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\dmadmin]
+"Description"="Configures hard disk drives and volumes. The service only runs for configuration processes and then stops. BlackViper.com adds this: This service is vital to run the Disk Management MMC console for dynamic volumes."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\dmserver]
+"Description"="Detects and monitors new hard disk drives and sends disk volume information to Logical Disk Manager Administrative Service for configuration. If this service is stopped, dynamic disk status and configuration information may become out of date. If this service is disabled, any services that explicitly depend on it will fail to start. BlackViper.com adds this: This service is vital to run the Disk Management MMC console for dynamic volumes. If you attempt to 'Manage' your hard drives and a dialog box pops up complaining about not being able to do this, start this service."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Dnscache]
+"Description"="Resolves and caches Domain Name System (DNS) names for this computer. If this service is stopped, this computer will not be able to resolve DNS names and locate Active Directory domain controllers. If this service is disabled, any services that explicitly depend on it will fail to start. BlackViper.com adds this: Resolves and caches DNS names and Active Directory domain controller functions. This service is not required for DNS lookups, but if it makes you happy to have it running, you may. However, DNS Client is required if using IPSEC. If you attempt to 'repair' your network connection and a dialog box complains that the 'DNS resolver failed to flush the cache,' this service is the reason."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ERSvc]
+"Description"="Allows error reporting for services and applictions running in non-standard environments. BlackViper.com adds this: Calls home to Microsoft when application errors occur. I personally do not like this. I feel it is a waste of memory and resources. On the other hand, if you are experiencing system crashes often, the best way to deal with them is to report them using this tool."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Eventlog]
+"Description"="Enables event log messages issued by Windows-based programs and components to be viewed in Event Viewer. This service cannot be stopped. BlackViper.com adds this: Always helpful to check out the Event Log to see what problems with applications are popping up that is hidden from the normal user. To see quickly what, if anything has resulted in your adjustments, you may consider clearing the Event Log. Windows Management Instrumentation also requires Event Log Service to be running. If you disable the Event Log Service, but do not disable Windows Management Instrumentation, your computer may have an extended boot time while Windows Management Instrumentation is waiting for the Event Log to start. It is just best to keep Event Log active for troubleshooting purposes and normal operations. Take note: Manual (and Automatic) updates via Windows Update Version 5 web site requires Cryptographic Services, Background Intelligent Transfer Service, and Event Log to be running. Place All three in to automatic if you do not wish to update manually."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\EventSystem]
+"Description"="Supports System Event Notification Service (SENS), which provides automatic distribution of events to subscribing Component Object Model (COM) components. BlackViper.com adds this: You will receive, in the Event Log, an entry from DCOM complaining about not having this service running if disabled. I am unaware of any application that uses COM+, but if set to manual, many services report to it, so it will start anyway. This service is required for System Event Notification. For the fun of it, go to: Program Files, ComPlus Applications, on your system, see if you have any installed COM+ Applications. If not, you can probably disable this service with no side effects (besides the Event Log complaining upon reboots). Take note: BootVis requires Task Scheduler and COM+ Event System to be running if you wish to take advantage of the optimize system function. I recommend disabled for Super Tweaking, automatic for safe, and manual for most other configurations."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\FastUserSwitchingCompatibility]
+"Description"="Provides management for applications that require assistance in a multiple user environment. BlackViper.com adds this: Unless you have many users on a system, you probably do not even need this service to be running. You could benefit greatly, however, if you use this service in conjunction with many users on your local computer to allow switching users without closing all existing applications running under a different account."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\helpsvc]
+"Description"="Enables Help and Support Center to run on this computer. If this service is stopped, Help and Support Center will be unavailable. If this service is disabled, any services that explicitly depend on it will fail to start. BlackViper.com adds this: This service is required for Microsoft’s online (or offline) help documents. If you ever attempt to use Help and Support, the service places itself back into Automatic and starts even if you already had this service on disabled. I try to avoid as much Microsoft help as I can. :)"
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\HidServ]
+"Description"="Enables generic input access to Human Interface Devices (HID), which activates and maintains the use of predefined hot buttons on keyboards, remote controls, and other multimedia devices. If this service is stopped, hot buttons controlled by this service will no longer function. If this service is disabled, any services that explicitly depend on it will fail to start. BlackViper.com adds this: You may not have any peripherals that require this service. If one of yours magically does not function anymore, set it to automatic. Namely, scanners with function buttons (fax, copy) or even an Internet keyboard with volume or play controls."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ImapiService]
+"Description"="Manages CD recording using Image Mastering Applications Programming Interface (IMAPI). If this service is stopped, this computer will be unable to record CDs. If this service is disabled, any services that explicitly depend on it will fail to start. BlackViper.com adds this: This service operates that cool 'drag and drop' CD burn capability. You will need this service to burn CD's. What is the good news? If you set this service to manual, the service starts and stops itself when used with some software packages. This is practically the only service that does do this! If you still cannot burn a CD with it on manual, switch to automatic and feel safe that it starts only when needed. This service may take up about 1.6 MB of memory in an idle state."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\lanmanserver]
+"Description"="Supports file, print, and named-pipe sharing over the network for this computer. If this service is stopped, these functions will be unavailable. If this service is disabled, any services that explicitly depend on it will fail to start. BlackViper.com adds this: Used for file and print sharing from your computer or Message Queuing. For security purposes, you may disable this service if you do not require local printers and files shared across your network. Connectivity, however, still exists even on incoming shared network drives. Workstation needs to be running to connect to another computer that has the files you are looking for. Note: If you disable File and Print sharing, the Server Service may disappear from the Services listing. Just enable File and Print sharing again and the Server Service will return."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\lanmanworkstation]
+"Description"="Creates and maintains client network connections to remote servers. If this service is stopped, these connections will be unavailable. If this service is disabled, any services that explicitly depend on it will fail to start. BlackViper.com adds this: Used to connect local computer to remote computers. Examples may include local network connectivity and File and Print sharing. Many services depend on Workstation to be functioning. Leave it on automatic for safe configurations."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LmHosts]
+"Description"="Enables support for NetBIOS over TCP/IP (NetBT) service and NetBIOS name resolution. BlackViper.com adds this: This feature provides legacy support for NetBIOS over TCP/IP. If your network does not use NetBIOS and / or WINS, disable this function."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Messenger]
+"Description"="Transmits net send and Alerter service messages between clients and servers. BlackViper.com adds this: This service provides the ability to send messages between clients and servers. This service needs not to be running under normal home conditions. It is also advisable to make this service go away to avoid the possibility of 'net send' messages hitting your computer from the internet. This has nothing to do with MSN Messenger, nor is it WinPopUp. To test for this security vulnerability, at the command prompt, (run: cmd.exe) type: net send 127.0.0.1 hi. If you get a popup 'hi' message, you should disable the Messenger service. If you get an error stating, 'The message alias could not be found on the network,' you are safe. If, for whatever reason, you need the Messenger service running but wish not to have spam popups active, you can disable the particular ports at your firewall. The Messenger service uses UDP ports 135, 137, and 138; TCP ports 135, 139, and 445."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\mnmsrvc]
+"Description"="Enables an authorized user to access this computer remotely by using NetMeeting over a corporate intranet. If this service is stopped, remote desktop sharing will be unavailable. If this service is disabled, any services that explicitly depend on it will fail to start. BlackViper.com adds this: Enables a user to access your computer using NetMeeting. This may create a BIG open door for the unwanted. If you are paranoid about security, disable this function. Even if you were not worried, I would still get rid of it."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MSDTC]
+"Description"="Coordinates transactions that span multiple resource managers, such as databases, message queues, and file systems. If this service is stopped, these transactions will not occur. If this service is disabled, any services that explicitly depend on it will fail to start. BlackViper.com adds this: This service is required if using Message Queuing. You may also see complaints in the Event Log if this service is disabled, but I have experienced no side effects. Microsoft's .NET may require this service in the future."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MSIServer]
+"Description"="Installs, repairs and removes software according to instructions contained in .MSI files. BlackViper.com adds this: This service is required for software applications that install using MSI files. If no applications that you have will install properly or you get an error that involves 'RPC Service,' place this service in to Automatic or Manual. Only disable this service after you have completed installation of your applications, mainly Office and such. I am not aware how many Games actually use MSI Files. In an idle state, this service uses about 3.4 MB of RAM. Put it to manual to save that amount."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NetDDE]
+"Description"="Provides network transport and security for Dynamic Data Exchange (DDE) for programs running on the same computer or on different computers. If this service is stopped, DDE transport and security will be unavailable. If this service is disabled, any services that explicitly depend on it will fail to start. BlackViper.com adds this: I have not found a good use for this service. Unless you use remote ClipBook, disable it. This uses about 1.5 MB idle."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NetDDEdsdm]
+"Description"="Manages Dynamic Data Exchange (DDE) network shares. If this service is stopped, DDE network shares will be unavailable. If this service is disabled, any services that explicitly depend on it will fail to start. BlackViper.com adds this: I have not found a good use for this service. Unless you use remote ClipBook, disable it."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Netlogon]
+"Description"="Supports pass-through authentication of account logon events for computers in a domain. BlackViper.com adds this: Used for logging onto a Domain Controller. This service is not required on a standalone system, or for a 'home' network."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Netman]
+"Description"="Manages objects in the Network and Dial-Up Connections folder, in which you can view both local area network and remote connections. BlackViper.com adds this: Required for managing network connectivity. Set to disabled if you have no network or you do not toy with the configurations a lot. If your internet connectivity no longer operates after disabling this function, set it back to Automatic! Note: While disabling this service, you will no longer see the system tray icon (lower right) displayed, even for modem connections. Connectivity, however, still exists even on incoming shared network drives."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Nla]
+"Description"="Collects and stores network configuration and location information, and notifies applications when this information changes. BlackViper.com adds this: This service is required for use with the Internet Connection Sharing service (server only)."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NtLmSsp]
+"Description"="Provides security to remote procedure call (RPC) programs that use transports other than named pipes. BlackViper.com adds this: Manages local system security information on the computer. You need this service if you are running Message Queuing or Telnet server."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NtmsSvc]
+"Description"="BlackViper.com adds this: Used for managing removable media. Disable this service if you do not have items like tape backup devices, etc. If your CD ROM / DVD drive starts acting funny, (no auto play, etc) place this service into automatic. Normally, this service does not need to be running and you will not miss any of its functionality."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PlugPlay]
+"Description"="Enables a computer to recognize and adapt to hardware changes with little or no user input. Stopping or disabling this service will result in system instability. BlackViper.com adds this: This service is the heart and soul of the Plug and Play environment. I do not recommend disabling this service, but if you want to, you are on your own. Take note: UPnP is NOT PnP. UPnP is for connectivity on networks via TCP/IP to devices, such as scanners or printers. Your sound card is PnP. Do NOT disable Plug and Play service."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PolicyAgent]
+"Description"="Manages IP security policy and starts the ISAKMP/Oakley (IKE) and the IP security driver. BlackViper.com adds this: May be required on some domains or VPN connections, but the average user will not need this."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ProtectedStorage]
+"Description"="Provides protected storage for sensitive data, such as private keys, to prevent access by unauthorized services, processes, or users. BlackViper.com adds this: Allows for the saving of local passwords or even web sites information (AutoComplete). This service is set to Automatic by default. Due to security reasons, I recommend leaving this feature disabled to make things all that much more difficult to steal vital information if you do not save it. On the other hand, you may need this service to manage private keys for encryption purposes. If so, leave this service on automatic to ensure the higher security settings you choose work. If you disable this service, you will no longer have any of your passwords saved, no matter how many times you click the box. If you enjoy having your passwords saved in applications like Outlook or Dial up networking or you are connecting to the internet via a domain controller/server that requires authentication, set this service to Automatic."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RasAuto]
+"Description"="Creates a connection to a remote network whenever a program references a remote DNS or NetBIOS name or address. BlackViper.com adds this: Creates a connection to a network when a program requests a remote address. This service may be required for your internet connection. If things cease to function after disabling this service, put it to automatic. Note: you may require this service for some direct cable or DSL providers and connections, depending on how they implement their logon process. If your Dial-up, cable or DSL internet access no longer functions properly with this service disabled, place this service into automatic. If you use a hardware gateway or router, this service is not required."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RasMan]
+"Description"="Creates a network connection. BlackViper.com adds this: This service is required if you use Internet Connection Sharing. If things cease to function after disabling this service, put it to automatic. Note: you may require this service for some direct cable or DSL providers and connections, depending on how they implement their logon process. If your Dial-up, cable or DSL internet access no longer functions properly with this service disabled, place this service into automatic. If you use a hardware gateway or router, this service is not required."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RDSessMgr]
+"Description"="Manages and controls Remote Assistance. If this service is stopped, Remote Assistance will be unavailable. Before stopping this service, see the Dependencies tab of the Properties dialog box. BlackViper.com adds this: If you do not want or need to use this feature, disable it. In an idle state, this service sucks up 3.4 MB to 4 MB of RAM."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RemoteAccess]
+"Description"="Offers routing services to businesses in local area and wide area network environments. BlackViper.com adds this: Allows computers to dial in to the local computer through a modem (or other devices) to access the local network using a standard or VPN connection. Unless you require this functionality, disable it for security reasons. Upon enabling this service, Incoming Connections icon will be available in the Network Connections control panel."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RemoteRegistry]
+"Description"="Enables remote users to modify registry settings on this computer. If this service is stopped, the registry can be modified only by users on this computer. If this service is disabled, any services that explicitly depend on it will fail to start. BlackViper.com adds this: This feature is not available on Windows XP Home. This is one of those not needed services. One of the first I disable. If you are paranoid about security, disable this service. Even if you are not or do not care, disable it anyway."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RpcLocator]
+"Description"="Manages the RPC name service database. BlackViper.com adds this: I have not found a reason to keep this service running. However, if something on your network breaks after you disable this service, put it back to manual. About 1.2 MB of RAM is in use with this service."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RpcSs]
+"Description"="Provides the endpoint mapper and other miscellaneous RPC services. BlackViper.com adds this: This service is rather vital. Practically everything depends on this service to be running. This is also the only service that you cannot disable via the Services MMC. Previously, if you disabled this service in Windows 2000, your computer would become unbootable. What I am trying to tell you is leave this service on automatic and absolutely DO NOT disable it in msconfig. If, for whatever reason, the service became disabled and you can no longer boot your system, please read the information available on BlackViper.com for a way to fix it."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RSVP]
+"Description"="Provides network signaling and local traffic control setup functionality for QoS-aware programs and control applets. BlackViper.com adds this: Provides traffic control on a network using IPSEC and applications that support QoS, and have an adapter that supports it. The QoS Packet Driver installs by default on any TCP/IP connections. I recommend uninstalling it if it is not needed on your network. As far as I can tell, you also need an ACS Server (Provided with Windows 2000 Server and Advanced Server) for the QoS Packet Scheduler and Applications to request the needed bandwidth. Since my network is not straining under any load, this is rather pointless. Take note: Some people (as I did before I completed extensive research on this) reported that QoS uses 20% of your bandwidth and does not allow any activity. This is false. For more information, please view the KB article q316666 from Microsoft. Regardless, if you uninstall the packet scheduler, no bandwidth is still reserved."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SamSs]
+"Description"="Stores security information for local user accounts. BlackViper.com adds this: Like Protected Storage, it saves profile and security information for local users. This service is required for the IIS Admin Service. If you have ever used the Group Policy Editor (gpedit.msc) to modify your settings, you need to keep this service running; otherwise, your modifications will not apply. For safe configurations, place this into automatic."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SCardDrv]
+"Description"="Enables support for legacy non-plug and play smart-card readers used by this computer. If this service is stopped, this computer will not support legacy reader. If this service is disabled, any services that explicitly depend on it will fail to start. BlackViper.com adds this: Supports the use of a Smart Card for local or network computer authentication. If you do not have a Smart Card, you do not need this service running."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SCardSvr]
+"Description"="Manages access to smart cards read by this computer. If this service is stopped, this computer will be unable to read smart cards. If this service is disabled, any services that explicitly depend on it will fail to start. BlackViper.com adds this: Supports the use of a Smart Card for local or network computer authentication. If you do not have a Smart Card, or you do not know what a Smart Card is, you do not need this service running. Save the 1.1 MB to 1.4 MB of RAM this service uses."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Schedule]
+"Description"="Enables a user to configure and schedule automated tasks on this computer. BlackViper.com adds this: I do everything manually, to avoid having this service running all the time. Some third party software may require this service to be active for automated functions, such as virus scanners, system maintenance tools, and automatic patch/driver lookups. Take note: BootVis requires Task Scheduler and COM+ Event System to be running if you wish to take advantage of the 'optimize system' function. Why may you need this service? It is due to the pre-fetching function built into Windows XP. Another Note: Pre-fetching only occurs on boot up and application start, so if you do not care about a few extra seconds of boot time, do not even bother with it and disable Task Scheduler. On some applications, the pre-fetching feature really does help. Only you can decide whether to use its functionality and if it helps in the performance of your system."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\seclogon]
+"Description"="Enables starting processes under alternate credentials. If this service is stopped, this type of logon access will be unavailable. If this service is disabled, any services that explicitly depend on it will fail to start. BlackViper.com adds this: I have never found a reason to keep this service running. I have always considered 'Alternate Credentials' someone other than me! Not my idea of fun. Really, though, it allows a 'limited user' account to start an application or process with higher privileges, such as the Administrator account or another user. You can also have a privileged user start an application or process with limited privileged account. If you right-click a file, the menu will display 'Run As' option. If you disable this service, that function will no longer be available."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SENS]
+"Description"="Tracks system events such as Windows logon, network, and power events.  Notifies COM+ Event System subscribers of these events. BlackViper.com adds this: Used in conjunction with COM+ Event System, this service notifies particular services when system events, such as logon and power events occur. I doubt the average user really cares about this. I have also not seen any applications that use this. You will receive, in the Event Log, an entry complaining about not having this service running if disabled. I have yet to find a side effect, though. For a safe configuration, leave this service on automatic."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SharedAccess]
+"Description"="Provides network address translation, addressing, name resolution and/or intrusion prevention services for a home or small office network. BlackViper.com adds this: Used to allow multiple computers on your network to access the internet via only one account. This service installs on the modem computer. If you are using a third party firewall or Internet Connection Sharing software package, this service is not required."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ShellHWDetection]
+"Description"="BlackViper.com adds this: Used for the auto play of devices like memory cards, CD drives, etc. Also, set to automatic if you are experiencing problems with laptop docking stations. In 'My Computer,' you may not see your hardware (example: DVD drive) displayed as a 'DVD Drive' if this service is disabled. However, all functionality still exists. In addition, when checking the properties of an auto play device, such as a DVD drive, you will not have an auto play tab displayed or available. This service also allows the option of selecting what action you wish to take with a particular type of file. If you enjoy the auto play function of CD's and DVD's after inserting them into your drive, leave this service on automatic."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Spooler]
+"Description"="Loads files to memory for later printing. BlackViper.com adds this: This service is required if you have printers, even if they are network printers. If this does not fit your needs, disable it. You will save about 3.8 MB by making this service go away. Your printers will still be 'installed' if you disable this service, but not visible in the printers folder. After restarting Print Spooler, they will reappear and be available for use. I place this service into manual mode and only start it up when printing is required. In manual mode, the service will not automatically start at boot time."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\srservice]
+"Description"="Performs system restore functions. To stop service, turn off System Restore from the System Restore tab in My Computer->Properties. BlackViper.com adds this: This service creates system snap shots or restores a point for returning to later. Every time you install a program or new driver, and on a schedule, this service creates a 'restore point' to roll back to if a problem occurs. This is the FIRST thing that I get rid of on a clean installation. A rather GOOD (and possibly the only) reason to use this feature is to roll back your OS after installing an unknown program or testing software. For example, if you use BETA software of any kind. NOTE: If you disable this service, your previous restore points will delete. If, for whatever reason, you do not want this to happen, do not disable this service. By default, System Restore Service uses a LARGE amount of disk space to store rollback points. On large hard drives, this could be well over 10 to 20 GB."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SSDPSRV]
+"Description"="Enables discovery of UPnP devices on your home network. BlackViper.com adds this: Used in conjunction with Universal Plug and Play Device Host, it detects and configures UPnP devices on your home network. For security reasons and for the fact that I doubt that you have any of these devices, disable this service. If any EXTERNAL device does not function because of this service being disabled, place it back in to automatic. MSN Messenger uses this service in conjunction with supported UPnP devices, to provide support for networks behind a NAT firewall or router. Also, if you are experiencing difficulty connecting to multiplayer games that use DirectX(7,8,9), place this service to automatic and ensure you download all security updates. The problem that I have found with this service is that it broadcasts UDP port 1900 a lot. If you notice plenty of network activity even though nothing is happening, this serivice is sometimes the cause. Take note: Do NOT disable the Plug and Play service."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\stisvc]
+"Description"="Provides image acquisition services for scanners and cameras. BlackViper.com adds this: Used for some scanners, web cams, and cameras. If, after disabling this service, your scanner or camera fails to function properly, enable this service by placing it into automatic."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SwPrv]
+"Description"="Manages software-based volume shadow copies taken by the Volume Shadow Copy service. If this service is stopped, software-based volume shadow copies cannot be managed. If this service is disabled, any services that explicitly depend on it will fail to start. BlackViper.com adds this: Used in conjunction with the Volume Shadow Copy service, Microsoft Backup uses these services. You will receive, in the Event Log, an entry complaining about not having this service running if disabled. I have yet to find a side effect, though, but to avoid the messages, you can place the service in manual. Some third party hard disk ghost or imaging software may require this service to be running."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SysmonLog]
+"Description"="Collects performance data from local or remote computers based on preconfigured schedule parameters, then writes the data to a log or triggers an alert. If this service is stopped, performance information will not be collected. If this service is disabled, any services that explicitly depend on it will fail to start. BlackViper.com adds this: This may be a super geek tool, but I feel that the overhead associated with it is not worth the benefit. You decide."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\TapiSrv]
+"Description"="Provides Telephony API (TAPI) support for programs that control telephony devices and IP based voice connections on the local computer and, through the LAN, on servers that are also running the service. BlackViper.com adds this: This service is required for dial-up modem connectivity. Note: you may require this service for some direct cable or DSL providers, depending on how they implement their logon process or some AOL functionality, depending on software used. If Dial-up, cable or DSL internet access no longer functions properly with this service disabled, place it into automatic. If you are connecting via a hardware router or gateway, this service is not needed."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\TermService]
+"Description"="Allows multiple users to be connected interactively to a machine as well as the display of desktops and applications to remote computers. The underpinning of Remote Desktop (including RD for Administrators), Fast User Switching, Remote Assistance, and Terminal Server. BlackViper.com adds this: Allows remote login to the local computer. This service is required for Fast User Switching, Remote Desktop Server and Remote Assistance. You will not be able to view who is logged on to a particular computer by viewing the 'user' tab located in the Task Manager if this service is disabled. For security reasons, disable this unless you specifically require its functionality. For some reason, start this service to install Norton 2003."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Themes]
+"Description"="Provides user experience theme management. BlackViper.com adds this: Used to display all those new XP themes and colors on your desktop. If memory conscious and does not care about the new XP look, disable this service to save RAM. I have observed between 4 MB to 12 MB of RAM used for the new themes."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\TlntSvr]
+"Description"="Enables a remote user to log on to this computer and run programs, and supports various TCP/IP Telnet clients, including UNIX-based and Windows-based computers. If this service is stopped, remote user access to programs might be unavailable. If this service is disabled, any services that explicitly depend on it will fail to start. BlackViper.com adds this: This service is not available on Windows XP Home. It allows remote login to the local computer via the telnet function. For security reasons, disable this unless you specifically require its functionality. You will save about 2 MB of RAM by plugging this security hole."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\TrkWks]
+"Description"="Maintains links between NTFS files within a computer or across computers in a network domain. BlackViper.com adds this: For example, you could make a file on Computer A. You then create a short cut or link to that file on Computer B. If you would move the file on Computer A to a different location, this service would tell Computer B to update its information to allow uninterrupted connectivity. Even though this is rather valuable on a large network, I have not found a use for this service on a home network. It uses about 3.5 MB to 4 MB in an idle state."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\uploadmgr]
+"Description"="Manages synchronous and asynchronous file transfers between clients and servers on the network. If this service is stopped, synchronous and asynchronous file transfers between clients and servers on the network will not occur. If this service is disabled, any services that explicitly depend on it will fail to start. BlackViper.com adds this: This service sends driver information to Microsoft to track availability of driver information. This service is not required for basic File and Print sharing. I have yet to find a need for this service, nor do I wish to send my hardware information to Microsoft."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\upnphost]
+"Description"="Provides support to host Universal Plug and Play devices. BlackViper.com adds this: Used in conjunction with SSDP Discovery Service, it detects and configures UPnP devices on your home network. For security reasons and for the fact that I doubt that you have any of these devices, disable this service. If any EXTERNAL device does not function because of this service being disabled, place it back in to automatic. MSN Messenger uses this service in conjunction with supported UPnP devices, to provide support for networks behind a NAT firewall or router. Also, if you are experiencing difficulty connecting to multiplayer games that use DirectX(7,8,9), place this service to automatic and ensure you download all security updates. Furthermore, if you use Internet Connection Sharing and wish to make use of the 'allow others to modify this connection' feature, enable UPnP. Take note: UPnP is NOT PnP. Your sound card is PnP. Do NOT disable Plug and Play service."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\UPS]
+"Description"="Manages an uninterruptible power supply (UPS) connected to the computer. BlackViper.com adds this: I have not found a need for this. My UPS that connects via USB does NOT need this service to run. However, some APC UPS install a totally different service for communication. Windows Update also has a patch for the UPS service. Some UPS connected via serial port may require this service to be running."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\VSS]
+"Description"="Manages and implements Volume Shadow Copies used for backup and other purposes. If this service is stopped, shadow copies will be unavailable for backup and the backup may fail. If this service is disabled, any services that explicitly depend on it will fail to start. BlackViper.com adds this: Used in conjunction with the MS Software Shadow Copy Provider service. Microsoft Backup also uses these services. You will receive, in the Event Log, an entry complaining about not having this service running if disabled. I have yet to find a side effect, though. If you do not like the errors, place it in manual. By taking it out of automatic, you will save about 3.0 MB of memory."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\W32Time]
+"Description"="Maintains date and time synchronization on all clients and servers in the network. If this service is stopped, date and time synchronization will be unavailable. If this service is disabled, any services that explicitly depend on it will fail to start. BlackViper.com adds this: Automatically sets your clock by contacting a server (Microsoft’s server by default) on the internet. Great idea if your network connects to the internet 24/7. The Event Log fills up with 'cannot find server' messages on a non-dedicated setup, though. After successful synchronizing, this service will not attempt to do it again for 7 days, meanwhile, taking up resources. You may choose to set your clock manually on a dial up connection, but with a 24/7 broadband setup, this could keep you on time for work. Note: as mentioned, 'time.windows.com' is the default server for synchronization. For those privacy conscious people that prefer to connect to a government site rather then MS, use 'time.nist.gov.'"
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WebClient]
+"Description"="Enables Windows-based programs to create, access, and modify Internet-based files. If this service is stopped, these functions will not be available. If this service is disabled, any services that explicitly depend on it will fail to start. BlackViper.com adds this: I have not found a reason to have this service running. I have a hunch that this is going to be required for Microsoft's '.Net Software as a service.' For security reasons, I recommend for this service to be disabled. If some MS products, such as MSN Explorer, Media Player, NetMeeting or Messenger fail to provide a particular function, try to enable this service to see if it is required for your configuration."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\winmgmt]
+"Description"="Provides a common interface and object model to access management information about operating system, devices, applications and services. If this service is stopped, most Windows-based software will not function properly. If this service is disabled, any services that explicitly depend on it will fail to start. BlackViper.com adds this: This service is required if you want to see the Dependencies tab in service configuration and you want everything to go smoothly. I do not recommend disabling this service as strange things may start to happen."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WmdmPmSp]
+"Description"="Retrieves the serial number of any portable music player connected to your computer. BlackViper.com adds this: I have not really found a good reason to keep this service always running. I am not aware of anything that actually requires it. Disable it unless something of yours ceases to function properly, such as Windows Media Player, Microsoft's integration with Digital Rights Management and copy protection."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Wmi]
+"Description"="Provides systems management information to and from drivers. BlackViper.com adds this: This feature is not available on Windows XP Home. This service is not as vital as Windows Management Instrumentation, but I recommend leaving this service in manual."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WmiApSrv]
+"Description"="Provides performance library information from WMI HiPerf providers. BlackViper.com adds this: I have not found a use for this service. Save the 2.5 MB to 6 MB of memory, this service consumes."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\wuauserv]
+"Description"="Enables the download and installation of critical Windows updates. BlackViper.com adds this: After the installation of Service Pack 1, you may configure how often updates are checked. Using default values, Windows XP automatically downloads the updates and asks to install them. A few reasons why you may think this is unacceptable in your situation: 1) You could have a dial-up connection. 2) You may also: a) Wish to know what, when and how an update installs BEFORE using any bandwidth. b) Want to read about the update BEFORE downloading. c) Want to know WHY you need it and WHAT it fixes. It is very important that if you decide to disable this service, you check the Windows Update site often to ensure the latest patches install properly. Take note: Manual (and Automatic) updates via Windows Update Version 5 web site requires Cryptographic Services, Background Intelligent Transfer Service, and Event Log to be running. Place All three in to automatic if you do not wish to update manually."
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WZCSVC]
+"Description"="Provides automatic configuration for the 802.11 adapters. BlackViper.com adds this: Provides automatic configuration for wireless network devices and connection quality feedback. If you do not have any wireless network devices in use on the local system, disable this service. You may require this service for connectivity with some hot sync software for a PDA, laptop or other portable computer."
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\ShellServiceObjectDelayLoad]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\ShellServiceObjectDelayLoad]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SoftwareProtectionPlatform]
+"SkipRearm"=dword:00000001
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RemoteComputer\NameSpace\{D6277990-4C6A-11CF-8D87-00AA0060F5BF}]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RemoteComputer\NameSpace\{2227A280-3AEA-1069-A2DE-08002B30309D}]
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem]
+"Win31FileSystem"=dword:00000000
+"Win95TruncatedExtensions"=dword:00000001
+"NtfsDisableLastAccessUpdate"=dword:00000001
+"NtfsDisable8dot3NameCreation"=dword:00000001
+"NtfsAllowExtendedCharacterIn8dot3Name"=dword:00000001
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"ForegroundLockTimeout"=dword:00000000
+"AutoEndTasks"="1"
+"HungAppTimeout"="1000"
+"WaitToKillAppTimeout"="1000"
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control]
+"WaitToKillServiceTimeout"="1000"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile]
+"SystemResponsiveness"=dword:00000028
+[HKEY_USERS\.DEFAULT\Software\Microsoft\Windows NT\CurrentVersion\TaskManager]
+[HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\TaskManager]
+"Preferences"=hex:30,03,00,00,e8,03,00,00,01,00,00,00,01,00,00,00,03,0d,00,00,\
+  81,00,00,00,ca,0e,00,00,f4,03,00,00,01,00,00,00,01,00,00,00,00,00,00,00,00,\
+  00,00,00,01,00,00,00,00,00,00,00,01,00,00,00,00,00,00,00,00,00,00,00,04,00,\
+  00,00,09,00,00,00,0f,00,00,00,ff,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,c9,00,00,\
+  00,1f,00,00,00,51,00,00,00,39,00,00,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,\
+  ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,\
+  ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,\
+  ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,\
+  ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,\
+  00,00,00,00,01,00,00,00,02,00,00,00,03,00,00,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,\
+  ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,\
+  ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,\
+  ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,\
+  ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,\
+  ff,ff,ff,04,00,00,00,00,00,00,00,ff,ff,ff,ff,00,00,00,00,02,00,00,00,03,00,\
+  00,00,04,00,00,00,ff,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,aa,00,\
+  67,00,3c,00,5a,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,\
+  ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,\
+  ff,ff,00,00,00,00,00,00,01,00,00,00,02,00,00,00,03,00,00,00,ff,ff,ff,ff,ff,\
+  ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,\
+  ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,\
+  ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,\
+  ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,04,00,00,00,00,00,00,00,ff,ff,ff,ff,04,\
+  00,00,00,ff,ff,ff,ff,4f,00,00,00,28,00,00,00,50,00,00,00,34,00,00,00,50,00,\
+  00,00,00,00,00,00,01,00,00,00,02,00,00,00,03,00,00,00,04,00,00,00,00,00,00,\
+  00,ff,ff,ff,ff,46,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+"UsrColumnSettings"=hex:1c,0c,00,00,34,04,00,00,00,00,00,00,50,00,00,00,01,00,\
+  00,00,1d,0c,00,00,35,04,00,00,00,00,00,00,23,00,00,00,01,00,00,00,1e,0c,00,\
+  00,36,04,00,00,00,00,00,00,3c,00,00,00,01,00,00,00,1f,0c,00,00,39,04,00,00,\
+  00,00,00,00,4e,00,00,00,01,00,00,00,20,0c,00,00,37,04,00,00,00,00,00,00,4e,\
+  00,00,00,01,00,00,00
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\Tcpip\ServiceProvider]
+"HostsPriority"=dword:00000004
+"DnsPriority"=dword:00000005
+"LocalPriority"=dword:00000006
+"NetbtPriority"=dword:00000007
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]
+"ForwardBroadcasts"=dword:00000000
+"IPEnableRouter"=dword:00000000
+"DontAddDefaultGatewayDefault"=dword:00000000
+"EnableICMPRedirect"=dword:00000000
+"EnablePMTUBHDetect"=dword:00000000
+"EnableDeadGWDetect"=dword:00000000
+"DeadGWDetectDefault"=dword:00000001
+"SynAttackProtect"=dword:00000002
+"DisableDHCPMediaSense"=dword:00000001
+"TcpMaxHalfOpen"=dword:000001f4
+"TcpMaxHalfOpenRetried"=dword:00000190
+"TcpMaxPortsExhausted"=dword:00000005
+"TcpMaxConnectResponseRetransmissions"=dword:00000002
+"TcpMaxDataRetransmissions"=dword:00000003
+"DisableIPSourceRouting"=dword:00000002
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]
+"GlobalMaxTcpWindowSize"=dword:0003ebc0
+"TcpWindowSize"=dword:0003ebc0
+"DefaultTTL"=dword:00000040
+"TcpMaxDupAcks"=dword:00000002
+"Tcp1323Opts"=dword:00000001
+"EnablePMTUDiscovery"=dword:00000001
+"EnablePMTUBHDetect"=dword:00000000
+"MaxUserPort"=dword:0000fffe
+"SackOpts"=dword:00000001
+"KeepAliveTime"=dword:00000100
+"DisableTaskOffload"=dword:00000000
+"MTU"="1500"
+"TcpTimedWaitDelay"=dword:0000001e
+"StrictTimeWaitSeqCheck"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers]
+"TdrDelay"=dword:00000005
+[HKEY_CLASSES_ROOT\CLSID\{98641F47-8C25-4936-BEE4-C2CE1298969D}]
+@="User Accounts Classic"
+"InfoTip"="Windows 2000 style User Accounts dialog"
+[HKEY_CLASSES_ROOT\CLSID\{98641F47-8C25-4936-BEE4-C2CE1298969D}\DefaultIcon]
+@="%SystemRoot%\\\\System32\\\\nusrmgr.cpl,1"
+[HKEY_CLASSES_ROOT\CLSID\{98641F47-8C25-4936-BEE4-C2CE1298969D}\Shell\Open\command]
+@="Control Userpasswords2"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ControlPanel\NameSpace\{98641F47-8C25-4936-BEE4-C2CE1298969D}]
+@="Add Userpasswords2 to Control Panel"
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\PriorityControl]
+"Win32PrioritySeparation"=dword:00000026
+[HKEY_CURRENT_USER\Software\Microsoft\MediaPlayer\Preferences]
+"MP3RecordRate"=dword:0001f400
+[HKEY_CURRENT_USER\Software\Microsoft\MediaPlayer\Settings\MP3Encoding]
+"HighRate"=dword:0004e200
+"LowRate"=dword:0000dac0
+"MediumHighRate"=dword:0003e800
+"MediumRate"=dword:0001f400
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\MediaPlayer\Preferences]
+"AutoAddMusicToLibrary"=dword:00000000
+"ClipFullScreen"=dword:00000001
+"DoNotShowAnchor"=dword:00000001
+"FirstRun"=dword:00000000
+"LaunchIndex"=dword:00000001
+"ShowControlsOnEveryMouseMove"=dword:00000000
+"SilentAcquisition"=dword:00000000
+"StartInMediaGuide"=dword:00000000
+"FSControls_ControlsTimeout"=dword:00000001
+"FSControls_CursorTimeout"=dword:00000001
+"CDRecordMode"=dword:00000001
+"CDRecordMP3"=dword:00000001
+"AutoAddMusicToLibrary"=dword:00000000
+"CDRecordDRM"=dword:00000000
+"MetadataRetrieval"=dword:00000000
+"SendUserGUID"=dword:00000000
+"UpgradeCodecPrompt"=dword:00000000
+"UsageTracking"=dword:00000000
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsMediaPlayer]
+"disableAutoUpdate"=dword:00000001
+"disableMRU"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MediaPlayer\PlayerUpgrade]
+"AskMeAgain"="no"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MediaPlayer]
+"BlockUninstall"="no"

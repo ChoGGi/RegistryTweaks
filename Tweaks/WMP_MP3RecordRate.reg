@@ -1,0 +1,9 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Software\Microsoft\MediaPlayer\Preferences]
+"MP3RecordRate"=dword:0001f400
+[HKEY_CURRENT_USER\Software\Microsoft\MediaPlayer\Settings\MP3Encoding]
+"HighRate"=dword:0004e200
+"LowRate"=dword:0000dac0
+"MediumHighRate"=dword:0003e800
+"MediumRate"=dword:0001f400

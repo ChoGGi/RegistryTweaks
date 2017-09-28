@@ -1,0 +1,89 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\9.0\Text Editor]
+"Auto List Members"=dword:00000000
+"Auto List Params"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\9.0\Text Editor\Basic]
+"Auto List Members"=dword:00000000
+"Auto List Params"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\9.0\Text Editor\C/C++]
+"Auto List Members"=dword:00000000
+"Auto List Params"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\9.0\Text Editor\CSharp]
+"Auto List Members"=dword:00000000
+"Auto List Params"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\9.0\Text Editor\CSS]
+"Auto List Members"=dword:00000000
+"Auto List Params"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\9.0\Text Editor\Disassembly]
+"Auto List Members"=dword:00000000
+"Auto List Params"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\9.0\Text Editor\ENC]
+"Auto List Members"=dword:00000000
+"Auto List Params"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\9.0\Text Editor\HTML]
+"Auto List Members"=dword:00000000
+"Auto List Params"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\9.0\Text Editor\JScript]
+"Auto List Members"=dword:00000000
+"Auto List Params"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\9.0\Text Editor\Memory]
+"Auto List Members"=dword:00000000
+"Auto List Params"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\9.0\Text Editor\PL/SQL]
+"Auto List Members"=dword:00000000
+"Auto List Params"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\9.0\Text Editor\Plain Text]
+"Auto List Members"=dword:00000000
+"Auto List Params"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\9.0\Text Editor\RDL Expression]
+"Auto List Members"=dword:00000000
+"Auto List Params"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\9.0\Text Editor\Register]
+"Auto List Members"=dword:00000000
+"Auto List Params"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\9.0\Text Editor\SQL Script]
+"Auto List Members"=dword:00000000
+"Auto List Params"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\9.0\Text Editor\T-SQL]
+"Auto List Members"=dword:00000000
+"Auto List Params"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\9.0\Text Editor\T-SQL7]
+"Auto List Members"=dword:00000000
+"Auto List Params"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\9.0\Text Editor\T-SQL80]
+"Auto List Members"=dword:00000000
+"Auto List Params"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\9.0\Text Editor\T-SQL90]
+"Auto List Members"=dword:00000000
+"Auto List Params"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\9.0\Text Editor\XAML]
+"Auto List Members"=dword:00000000
+"Auto List Params"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\9.0\Text Editor\XML]
+"Auto List Members"=dword:00000000
+"Auto List Params"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\9.0\Text Editor\XOML]
+"Auto List Members"=dword:00000000
+"Auto List Params"=dword:00000000

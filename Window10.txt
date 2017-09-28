@@ -1,0 +1,4 @@
+Disable_Telemetry.reg
+SkipRearm.reg
+
+^^ Run every couple months or after big update (AU)

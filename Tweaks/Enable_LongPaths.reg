@@ -1,0 +1,7 @@
+REGEDIT4
+
+;NTFS limits path lengths to 260
+;https://msdn.microsoft.com/en-us/library/aa365247.aspx#maxpath
+;this value allows you to ignore that on windows 10
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem]
+"LongPathsEnabled"=dword:00000001

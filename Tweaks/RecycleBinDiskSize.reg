@@ -1,0 +1,18 @@
+REGEDIT4
+
+
+;don't send files to recycle bin, delete right away
+;[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\BitBucket]
+;"NukeOnDelete"=dword:00000001
+
+
+
+;use 100% of space for recycle bin
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\BitBucket]
+"UseGlobalSettings"=dword:00000001
+"Percent"=dword:00000064
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\BitBucket]
+"UseGlobalSettings"=dword:00000001
+"Percent"=dword:00000064

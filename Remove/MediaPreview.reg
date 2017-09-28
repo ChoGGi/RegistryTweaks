@@ -1,0 +1,6 @@
+REGEDIT4
+
+[-HKEY_CLASSES_ROOT\.avi\ShellEx]
+[-HKEY_CLASSES_ROOT\.mpg\ShellEx]
+[-HKEY_CLASSES_ROOT\.mpe\ShellEx]
+[-HKEY_CLASSES_ROOT\.mpeg\ShellEx]

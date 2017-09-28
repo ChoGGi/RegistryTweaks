@@ -1,0 +1,5 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NetBT\Parameters]
+"SMBDeviceEnabled"=dword:00000001
+"EnableLMHOSTS"=dword:00000000

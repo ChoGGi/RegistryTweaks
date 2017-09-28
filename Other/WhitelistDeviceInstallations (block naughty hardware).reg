@@ -1,0 +1,57 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DeviceInstall\Restrictions\DeniedPolicy]
+;Display a custom message title when device installation is prevented by a policy setting
+"SimpleText"="DENIED"
+;Display a custom message when installation is prevented by a policy setting
+"DetailText"="DENIED-NIED"
+
+;GPO>Comp Conf>Admin Templates>System>Device Installation>Restrictions
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DeviceInstall\Restrictions]
+;Allow admins to manually install blocked devices (from devmgmt.msc)
+"AllowAdminInstall"=dword:00000001
+;Prevent installation of devices not described by other policy settings
+"DenyUnspecified"=dword:00000001
+;Allow installation of devices that match any of these device IDs
+"AllowDeviceIDs"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DeviceInstall\Restrictions\AllowDeviceIDs]
+;nvidia 1080
+"1"="PCI\\VEN_10DE&DEV_1B80&SUBSYS_33601462&REV_A1"
+;Intel(R) C610 series/X99 chipset Thermal Subsystem - 8D24
+"2"="PCI\\VEN_8086&DEV_8D24&SUBSYS_00001043&REV_05"
+;dvd drive (on usb adapter)
+"3"="USBSTOR\\CdRomATAPI___iHAS124___D_____"
+;monitors
+"4"="MONITOR\\OTM0026"
+"5"="MONITOR\\BNQ7840"
+;intel I218-V
+"6"="PCI\\VEN_8086&DEV_15A1&SUBSYS_85C41043&REV_05"
+;corsair kb
+"7"="root\\CorsairBus"
+"8"="CorsairBus\\virtualdevice"
+"9"="HID\\VID_1B1C&PID_1B13&REV_0205&MI_01&Col01"
+"10"="HID\\VID_1B1C&PID_1B13&REV_0205&MI_00"
+;strix sound card
+"11"="USB\\VID_0B05&PID_180D&REV_0103&MI_00"
+"12"="USB\\VID_0B05&PID_180C&MI_00"
+;cfos driver
+"13"="cfosspeed"
+;naos mouse
+"14"="HID\\VID_22D4&PID_130C&REV_0135&MI_00"
+"15"="HID\\VID_22D4&PID_130C&REV_0136&MI_01&Col01"
+"16"="HID\\VID_22D4&PID_130C&REV_0136&MI_01&Col02"
+"17"="HID\\VID_22D4&PID_130C&REV_0136&MI_00"
+"18"="USB\\VID_22D4&PID_130C&REV_0136"
+"19"="USB\\VID_22D4&PID_130C&REV_0136&MI_00"
+"20"="USB\\VID_22D4&PID_130C&REV_0136&MI_01"
+;samsung nvme
+"21"="PCI\\VEN_144D&DEV_A802"
+;YubiCo
+"22"="SCFILTER\\CID_597562696b657934"
+"23"="USB\VID_1050&PID_0407&REV_0433&MI_02"
+"24"="{892EDE5E-BE49-443c-A0B3-005D74F2D69C}\\ScFilter"
+;logitech mouse
+"24"="HID\VID_046D&PID_C049&REV_5200&MI_00"
+
+;see %SystemRoot%\inf\setupapi.dev.log and setupapi.app.log for install issues

@@ -1,0 +1,33 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]
+"GlobalMaxTcpWindowSize"=dword:0003ebc0
+"TcpWindowSize"=dword:0003ebc0
+"DefaultTTL"=dword:00000040
+"TcpMaxDupAcks"=dword:00000002
+"Tcp1323Opts"=dword:00000001
+"EnablePMTUDiscovery"=dword:00000001
+"EnablePMTUBHDetect"=dword:00000000
+"MaxUserPort"=dword:0000fffe
+"SackOpts"=dword:00000001
+"KeepAliveTime"=dword:00000100
+"DisableTaskOffload"=dword:00000000
+"MTU"="1500"
+"TcpTimedWaitDelay"=dword:0000001e
+"StrictTimeWaitSeqCheck"=dword:00000001
+
+;"NumTcbTablePartitions"=dword:00000008
+;This parameter controls the number of TCP control block (TCB ) table partitions.
+;The TCB table can be partitioned to improve scalability on multiprocessor systems by reducing contention on the TCB table.
+;The value should be a power of two, that is, 2, 4, 8, 16, 32, and so on.
+;On multiprocessor systems, change the number of partitions to four times the number of processors in your system.
+
+;[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\************]
+;If only acking data and not any control packets, ack once every * packets, instead of the default of two.
+;This helps reduce packet processing costs for the Network Stack in the case of large writes (uploads) from the client into the server.
+;For each adapter, add:
+;for Gigabit
+;"TcpAckFrequency"=dword:00000013
+;for FastEthernet
+;"TcpAckFrequency"=dword:00000005
+

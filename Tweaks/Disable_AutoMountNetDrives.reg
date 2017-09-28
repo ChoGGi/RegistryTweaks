@@ -1,0 +1,4 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\NetworkProvider]
+"RestoreConnection"=dword:00000000

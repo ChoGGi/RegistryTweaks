@@ -1,0 +1,15 @@
+REGEDIT4
+
+;seems to help with TF2 crashing
+
+;http://support.microsoft.com/kb/102985
+;http://technet.microsoft.com/en-us/library/bb463205.aspx
+
+
+;for native SMB shares.
+;"PagedPoolSize "=dword:B71B000
+;For NFS shares when using Services for UNIX
+;"PagedPoolSize "=dword:FFFFFFFF
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
+"PagedPoolSize "=dword:FFFFFFFF

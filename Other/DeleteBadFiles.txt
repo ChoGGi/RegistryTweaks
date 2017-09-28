@@ -1,0 +1,5 @@
+ATTRIB -R -S -A -H "\\?\C:\Documents and Settings\<user profile>\Application Data\SecuROM\UserData\*"
+DEL "\\?\C:\Documents and Settings\<user profile>\Application Data\SecuROM\UserData\*"
+
+
+http://www.daemon-tools.cc/dtcc/f20/undeleteable-hidden-files-created-securom-7-xx-5780/

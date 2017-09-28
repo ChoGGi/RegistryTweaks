@@ -1,0 +1,6 @@
+REGEDIT4
+
+;Removes Map Network Drive and Disconnect Network Drive From Tools Menu and My Network Places Right Click
+;This also removes the Add Network Place Icon from an open My Network Place window and the Network Setup Icon
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoNetConnectDisconnect"=dword:00000001

@@ -1,0 +1,8 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\ComDlg32\Placesbar]
+"Place0"="G:\\"
+"Place1"=hex(2):44,3a,5c,00
+"Place2"=hex(2):44,3a,5c,4d,69,73,63,00
+"Place3"="E:\\"
+"Place4"="R:\\"

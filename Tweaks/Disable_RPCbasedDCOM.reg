@@ -1,0 +1,6 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Ole]
+"EnableDCOM"="N"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Rpc]
+"DCOM Protocols"=hex(7):00

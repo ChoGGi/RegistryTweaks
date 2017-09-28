@@ -1,0 +1,8 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem]
+"Win31FileSystem"=dword:00000000
+"Win95TruncatedExtensions"=dword:00000001
+"NtfsDisableLastAccessUpdate"=dword:00000001
+"NtfsDisable8dot3NameCreation"=dword:00000001
+"NtfsAllowExtendedCharacterIn8dot3Name"=dword:00000001

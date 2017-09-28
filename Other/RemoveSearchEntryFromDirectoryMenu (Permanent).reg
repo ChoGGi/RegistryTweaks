@@ -1,0 +1,4 @@
+REGEDIT4
+
+;you should export this key in regedit first (incase you wish to restore search menuitem)
+[-HKEY_CLASSES_ROOT\Directory\shell\find]

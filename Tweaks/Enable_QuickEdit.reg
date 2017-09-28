@@ -1,0 +1,4 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Console]
+"QuickEdit"=dword:00000001

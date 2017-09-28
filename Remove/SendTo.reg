@@ -1,0 +1,8 @@
+REGEDIT4
+
+;vista/win7
+[HKEY_CLASSES_ROOT\AllFilesystemObjects\shellex\ContextMenuHandlers\Send To]
+@=""
+;xp
+[HKEY_CLASSES_ROOT\AllFilesystemObjects\shellex\ContextMenuHandlers\SendTo]
+@=""

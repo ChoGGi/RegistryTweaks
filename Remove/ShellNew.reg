@@ -1,0 +1,12 @@
+REGEDIT4
+
+[-HKEY_CLASSES_ROOT\.bfc\ShellNew]
+[-HKEY_CLASSES_ROOT\.bmp\ShellNew]
+[-HKEY_CLASSES_ROOT\.doc\WordPad.Document.1\ShellNew]
+[-HKEY_CLASSES_ROOT\.rtf\ShellNew]
+[-HKEY_CLASSES_ROOT\.wav\ShellNew]
+[-HKEY_CLASSES_ROOT\.zip\CompressedFolder\ShellNew]
+[-HKEY_CLASSES_ROOT\.contact\ShellNew]
+[-HKEY_CLASSES_ROOT\.dwf\dwffile\ShellNew]
+[-HKEY_CLASSES_ROOT\.jnt\jntfile\ShellNew]
+[-HKEY_CLASSES_ROOT\.library-ms\ShellNew]

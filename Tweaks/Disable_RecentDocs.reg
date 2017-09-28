@@ -1,0 +1,12 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoRecentDocsMenu"=dword:00000001
+"NoRecentDocsNetHood"=hex:01,00,00,00
+"NoRecentDocsHistory"=hex:01,00,00,00
+"ClearRecentDocsOnExit"=hex:01,00,00,00
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoRecentDocsMenu"=dword:00000001
+"NoRecentDocsNetHood"=hex:01,00,00,00
+"NoRecentDocsHistory"=hex:01,00,00,00
+"ClearRecentDocsOnExit"=hex:01,00,00,00

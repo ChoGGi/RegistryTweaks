@@ -1,0 +1,8 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer]
+"MsiExecCA32"="C:\\WINDOWS\\syswow64\\msiexec.exe"
+"InstallerLocation"="C:\\WINDOWS\\system32\\"
+"MsiExecCA64"="C:\\WINDOWS\\system32\\msiexec.exe"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Installer]
+"InstallerLocation"="C:\\WINDOWS\\system32\\"

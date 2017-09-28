@@ -1,0 +1,6 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Internet Explorer\Restrictions]
+"NoHelpItemNetscapeHelp"=dword:00000001
+"NoHelpItemSendFeedback"=dword:00000001
+"NoHelpItemTipOfTheDay"=dword:00000001

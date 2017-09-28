@@ -1,0 +1,7 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\WebView\BarricadedFolders\]
+"shell:ControlPanelFolder"=dword:00000000
+"shell:SystemDriveRootFolder"=dword:00000000
+"shell:ProgramFiles"=dword:00000000
+"shell:Windows"=dword:00000000

@@ -1,0 +1,28 @@
+REGEDIT4
+
+;http://support.microsoft.com/kb/183063
+;If the value of this entry is 0,
+;the system attempts to retrieve the L2 cache size from the Hardware Abstraction Layer (HAL) for the platform.
+;If it fails, it uses a default L2 cache size of 256 KB.
+;If the value of this entry is not 0, it uses this value as the L2 cache size.
+
+;This entry is designed as a secondary source of cache size information for computers
+;on which the HAL cannot detect the L2 cache.
+
+
+;you can use cpu-z to show it or search on the web for your cpu model
+;256
+;"SecondLevelDataCache"=dword:00000100
+;512
+;"SecondLevelDataCache"=dword:00000200
+;1024
+;"SecondLevelDataCache"=dword:00000400
+;2048
+;"SecondLevelDataCache"=dword:00000800
+;4096
+;"SecondLevelDataCache"=dword:00001000
+;8192
+;"SecondLevelDataCache"=dword:00002000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
+"SecondLevelDataCache"=dword:00000100

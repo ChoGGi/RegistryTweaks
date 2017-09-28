@@ -1,0 +1,16 @@
+Editing the Registry for "other" Users
+
+From an account with Administrator level access
+
+1) Click Start, Run and enter REGEDIT
+2) In Regedit, highlight the HKEY_USERS key and go to File, Load Hive. 
+3) Use the File Open dialog to go to the Documents and Settings\<username> folder, where <username> is the account you wish to modify.
+4) Highlight the NTUSER.DAT file in this folder (usually a hidden file) and select Open.
+5) You'll be prompted to enter a "Key name". You can use whatever you wish, but I use the User's logon name.
+6) You can now expand the Hive you just loaded and make any needed changes.
+7) When finished, highlight this Hive again and go to File, Unload Hive.
+
+NOTE: You MUST unload the Hive prior to logging on to the users account. Otherwise XP may have trouble loading the user's profile.
+
+This page last updated 08/17/2003 23:14
+All material © Doug Knox

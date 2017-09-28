@@ -1,0 +1,8 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ICM]
+"GdiICMGammaRange"=dword:00000100
+
+;Windows sets limitations on what kinds of gamma adjustments can be made,
+;probably as a means of protecting the user against evil programs
+;that invert the colors, blank the display, or play some other annoying trick with the gamma ramps.

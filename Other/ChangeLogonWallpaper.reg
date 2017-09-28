@@ -1,0 +1,19 @@
+REGEDIT4
+
+[HKEY_USERS\.DEFAULT\Control Panel\Desktop]
+"Wallpaper"="C:\\Windows\\System32\\oobe\\info\\backgrounds\\backgroundDefault.jpg"
+"TileWallpaper"="0"
+"WallpaperStyle"="2"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\LogonUI\Background]
+"OEMBackground"=dword:00000001
+
+;needs to be under 256KB
+
+;or hex edit authui.dll
+;for 32-bit windows: 3D 00 E8 03 00 73 51
+;for 64-bit windows: E8 03 00 41 3B C1 73 3E
+;to
+;for 32-bit windows: 3D 00 E8 03 00 90 90
+;for 64-bit windows: E8 03 00 41 3B C1 90 90
+;WARNING! Don't do this with UAC turned on

@@ -1,0 +1,8 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\policies\System]
+"NoInternetOpenWith"=dword:00000001
+"InternetOpenWith"=dword:00000000
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"InternetOpenWith"=dword:00000000
+"NoInternetOpenWith"=dword:00000001

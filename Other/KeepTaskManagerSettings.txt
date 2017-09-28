@@ -1,0 +1,7 @@
+[HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\TaskManager]
+
+to keep task manager window settings right-click on the above key and goto permissons>advanced
+there should be a bunch with read / full control double click a full control one (for win7 you need to select edit first)
+then check deny for set value
+do the same for the other full control accounts
+press ok then agree with the computer and your done

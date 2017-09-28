@@ -1,0 +1,7 @@
+REGEDIT4
+;The driver verifier at random intervals verifies drivers for debugging.
+;Disabling this functionality might improve system performance.
+;For many high-throughput systems, every CPU cycle counts.
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem]
+"DontVerifyRandomDrivers"=dword:00000001
+

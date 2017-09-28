@@ -1,0 +1,3 @@
+this one needs to be edited before running
+
+lets you move system32\drivers\etc folder to another location

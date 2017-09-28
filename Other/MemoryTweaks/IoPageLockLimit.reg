@@ -1,0 +1,26 @@
+REGEDIT4
+
+;http://www.microsoft.com/technet/prodtechnol/windows2000serv/reskit/regentry/29932.mspx
+;http://www.scribd.com/doc/5567136/redp3943
+;"IoPageLockLimit"=dword:00000000
+;Specifies the limit of the number of bytes that can be locked for I/O operations.
+;When this value is 0, the system uses the default (512K)
+;The maximum value is about the equivalent of physical memory minus pad, which is
+;7 MB for a small system and grows as the amount of memory grows.
+;For a 64 MB system, pad is about 16 MB
+;for a 512 MB system, pad is about 64 MB.
+;256MB RAM
+;"IoPageLockLimit"=dword:00010000
+;512MB RAM
+;"IoPageLockLimit"=dword:00020000
+;1GB RAM
+;"IoPageLockLimit"=dword:00040000
+;2GB RAM
+;"IoPageLockLimit"=dword:00080000
+;4GB RAM
+;"IoPageLockLimit"=dword:00100000
+;8GB+ RAM
+"IoPageLockLimit"=dword:ffffffff
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
+"IoPageLockLimit"=dword:ffffffff

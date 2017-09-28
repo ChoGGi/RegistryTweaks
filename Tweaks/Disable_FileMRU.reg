@@ -1,0 +1,5 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\comdlg32]
+"NoFileMru"=dword:00000001
+"NoMru"=dword:00000001

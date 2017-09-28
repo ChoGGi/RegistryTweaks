@@ -1,0 +1,7 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"HideFileExt"=dword:00000000
+"Hidden"=dword:00000001
+"SuperHidden"=dword:00000001
+"ShowSuperHidden"=dword:00000001

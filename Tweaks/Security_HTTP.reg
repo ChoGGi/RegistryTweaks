@@ -1,0 +1,16 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\HTTP\Parameters]
+"AllowRestrictedChars"=dword:00000000
+"EnableNonUTF8"=dword:00000001
+"FavorUTF8"=dword:00000001
+"MaxConnections"=dword:7fffffff
+"MaxEndpoints"=dword:00000000
+"MaxFieldLength"=dword:00004000
+"MaxRequestBytes"=dword:00004000
+"PercentUAllowed"=dword:00000001
+"UrlSegmentMaxCount"=dword:000000ff
+"UriEnableCache"=dword:00000001
+"UriMaxUriBytes"=dword:00040000
+"UriScavengerPeriod"=dword:00000078
+"UrlSegmentMaxLength"=dword:00000104

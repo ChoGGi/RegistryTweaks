@@ -1,0 +1,25 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer]
+"SearchSystemDirs"=dword:00000001
+"SearchHidden"=dword:00000001
+"IncludeSubFolders"=dword:00000001
+"CaseSensitive"=dword:00000000
+"SearchSlowFiles"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\CabinetState]
+"FullPath"=dword:00000001
+"FullPathAddress"=dword:00000001
+"Use Search Asst"="no"
+"Settings"=hex:0c,00,02,00,1b,01,e7,77,60,00,00,00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\ContentIndex]
+"FilterFilesWithUnknownExtensions"=dword:00000001
+
+;disable stupid dog
+[HKEY_CURRENT_USER\Software\Microsoft\Search Assistant]
+"Actor"=""
+"SocialUI"=dword:00000000
+"UsageCount"=dword:00000000
+"UseAdvancedSearchAlways"=dword:00000001
+

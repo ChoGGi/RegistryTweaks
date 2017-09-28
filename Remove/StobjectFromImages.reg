@@ -1,0 +1,13 @@
+REGEDIT4
+
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.bmp\Shell\setdesktopwallpaper]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.dib\Shell\setdesktopwallpaper]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.gif\Shell\setdesktopwallpaper]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.jfif\Shell\setdesktopwallpaper]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.jpe\Shell\setdesktopwallpaper]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.jpeg\Shell\setdesktopwallpaper]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\Shell\setdesktopwallpaper]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.png\Shell\setdesktopwallpaper]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.tif\Shell\setdesktopwallpaper]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.tiff\Shell\setdesktopwallpaper]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.wdp\Shell\setdesktopwallpaper]

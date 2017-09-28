@@ -1,0 +1,19 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip]
+"Type"=dword:00000001
+"Start"=dword:00000001
+"ErrorControl"=dword:00000001
+"Tag"=dword:00000003
+"ImagePath"=hex(2):73,79,73,74,65,6d,33,32,5c,44,52,49,56,45,52,53,5c,74,63,70,69,70,2e,73,79,73,00
+"DisplayName"="TCP/IP Protocol Driver"
+"Group"="PNP_TDI"
+"DependOnService"=hex(7):49,50,53,65,63,00,00
+"DependOnGroup"=hex(7):00
+"Description"="TCP/IP Protocol Driver"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Enum]
+"0"="Root\\LEGACY_TCPIP\\0000"
+"Count"=dword:00000001
+"NextInstance"=dword:00000001
+

@@ -1,0 +1,21 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\Tcpip\ServiceProvider]
+"HostsPriority"=dword:00000004
+"DnsPriority"=dword:00000005
+"LocalPriority"=dword:00000006
+"NetbtPriority"=dword:00000007
+
+;(0) DNS Client Service = Resolver Cache* (Win2000 and XP)
+;(1) Local = NetBT local name cache
+;(2) Hosts = Hosts file
+;(3) DNS = Authorized domain name server
+;(4) NetBT (NetBios over TCP/IP) = Wins or LMHosts
+
+;*Includes all of the following by default:
+;--- Entries from Hosts file**
+;--- Positive responses from DNS within past 24 hours
+;--- Negative responses from DNS within past 5 minutes
+;--- Responses from unauthorized DNS (unless blocked)
+;**It's not clear whether this is ALL Hosts entries or just Hosts entries queried within the past 24 hours.
+;The priority of the DNS Client Service (Resolver Cache) cannot be adjusted - the service can only be turned On or Off. If turned on, it ALWAYS gets first priority no matter what the registry values are for the other four options.

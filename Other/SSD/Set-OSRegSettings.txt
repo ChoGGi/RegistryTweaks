@@ -1,0 +1,4 @@
+.\Set-OSRegSettings.ps1 -RAMMb <Installed memory in MB> -NumCPU <number of CPUs> -VolType <Volume types, valid values are 1(few files), 2 or 3(moderate files), 4(many files)>
+
+.\Set-OSRegSettings.ps1 -RAMMb 32677 -NumCPU 12 -VolType 2
+

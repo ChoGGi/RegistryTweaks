@@ -1,0 +1,15 @@
+REGEDIT4
+
+;0 = Disabled
+;1 = Application launch prefetching enabled
+;2 = Boot prefetching enabled
+;3 = Application launch and boot enabled
+
+
+[HKEY_USERS\.DEFAULT\Environment]
+"EnablePrefetcher"=dword:00000003
+"EnableSuperfetch"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\PrefetchParameters]
+"EnablePrefetcher"=dword:00000003
+"EnableSuperfetch"=dword:00000003

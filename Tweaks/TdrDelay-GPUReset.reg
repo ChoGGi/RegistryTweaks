@@ -1,0 +1,8 @@
+REGEDIT4
+
+;Specifies the number of seconds that the GPU can delay the preempt request from the GPU scheduler.
+;https://docs.microsoft.com/en-us/windows-hardware/drivers/display/tdr-registry-keys
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers]
+"TdrDelay"=dword:00000005
+;00000005 = 5 seconds
+;0000000a = 10s

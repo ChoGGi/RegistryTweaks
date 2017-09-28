@@ -1,0 +1,9 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"EnableBalloonTips"=dword:00000001
+"StartButtonBalloonTip"=dword:00000001
+"ShowInfoTip"=dword:00000001
+"FolderContentsInfoTip"=dword:00000001
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\tips]
+"Show"=dword:00000001

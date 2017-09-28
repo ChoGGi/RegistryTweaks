@@ -1,0 +1,5 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Messenger\Client]
+"PreventAutoRun"=dword:00000001
+"PreventRun"=dword:00000001

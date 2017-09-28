@@ -1,0 +1,1 @@
+these reg files remove context menu items

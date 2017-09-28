@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+;locked by trustedinstaller, change premissions
+[-HKEY_CLASSES_ROOT\CLSID\{7AD84985-87B4-4a16-BE58-8B72A5B390F7}]
+[-HKEY_CLASSES_ROOT\WOW6432Node\CLSID\{7AD84985-87B4-4a16-BE58-8B72A5B390F7}]

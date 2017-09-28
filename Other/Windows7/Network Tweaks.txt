@@ -1,0 +1,48 @@
+http://www.speedguide.net/articles/windows-7-vista-2008-tweaks-2574
+
+Disable Windows Scaling heuristics
+Windows Vista/7 has the ability to automatically change its own TCP Window auto-tuning behavior to a more conservative state regardless of any user settings. It is possible for Windows to override the autotuninlevel even after an user sets their custom TCP auto-tuning level. When that behavior occurs, it can have a very noticeable negative impact on throughput, and it does not automatically correct itself. If auto-tuning gets limited, the "netsh int tcp show global" command displays the following message:
+
+** The above autotuninglevel setting is the result of Windows Scaling heuristics
+overriding any local/policy configuration on at least one profile.
+
+To prevent that behavior and enforce any user-set TCP Window auto-tuning level, you should execute the following command:
+
+netsh int tcp set heuristics disabled
+
+possible settings are: disabled,enabled,default (sets to the Windows default state)
+recommended: disabled (to retain user-set auto-tuning level)
+
+Note this should be executed in elevated command prompt (with admin priviledges) before setting the autotuninlevel in next section. If the command is accepted by the OS you will see an "Ok." on a new line.
+
+The corresponding Registry value (not necessary to edit if setting via netsh) is located in:
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\Tcpip\Parameters
+EnableWsd=0   (default: 1, recommended: 0)
+
+Note: This automatic limitation of the TCP Window usually occurs in the presence of some packet loss, which can be common in longer transfers and server applications.
+
+
+
+
+TCP Chimney Offload
+TCP chimney offload enables Windows to offload all TCP processing for a connection to a network adapter. Offloads are initiated on a per-connection basis. Compared to task offload, TCP chimney offload further reduces networking-related CPU overhead, enabling better overall system performance by freeing up CPU time for other tasks.
+
+To set TCP Chimney Offload:
+
+netsh int tcp set global chimney=enabled
+
+Default state: disabled (under Vista), automatic (under Windows 7 and 2008 Server)
+Recommended: enabled
+
+The possible states are disabled, enabled, default (Vista), automatic (only Windows 7 and 2008 Server) as follows:
+
+automatic - This default setting is only available under Windows 7 and 2008 Server, it is not available udner Vista. It offloads if the connection is 10 GbE, has a RTT
+
+default - this setting restores chimney offload to the system default. Setting this "default" state under Windows 7 and 2008 Server is possible, but it sets the system to the "automatic" mode described above.
+disabled - this setting is maually configured as disabled.
+enabled - this setting is manually configured as enabled.
+
+Notes:
+Under Windows 7 and Server 2008 the "default" and the additional "automatic" parameter set the system to the same "automatic" state.
+For Chimney Offload to work, it needs to be enabled in both the OS and NIC. To enable the "TCP Offloading" setting in your NIC, navigate to the Device Manager, under Network Adapters, in the Advanced tab, and check "Enabled" in the box next to the TCP offload entry.
+

@@ -1,0 +1,5 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\lanmanserver\parameters]
+"AutoShareServer"=dword:00000000
+"AutoShareWorkstation"=dword:00000000

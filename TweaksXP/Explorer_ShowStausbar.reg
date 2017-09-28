@@ -1,0 +1,6 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main]
+"Show_StatusBar"="yes"
+"Show_URLinStatusBar"="yes"
+"StatusBarOther"=dword:00000001

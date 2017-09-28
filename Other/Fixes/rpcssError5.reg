@@ -1,0 +1,6 @@
+REGEDIT4
+
+;fix if you run "net start rpcss" and it fails with error 5
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RpcSs]
+"ObjectName1"="NT AUTHORITY\\NetworkService"
+"ObjectName"="LocalSystem"

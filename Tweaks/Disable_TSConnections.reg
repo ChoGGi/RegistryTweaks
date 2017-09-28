@@ -1,0 +1,5 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server]
+"AllowTSConnections"=dword:00000000
+"fDenyTSConnections"=dword:00000001

@@ -1,0 +1,8 @@
+REGEDIT4
+
+;http://msdn.microsoft.com/en-us/library/cc594541.aspx
+;http://technet.microsoft.com/en-us/library/bb463205.aspx
+;http://support.microsoft.com/kb/102985
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
+"DisablePagingExecutive"=dword:00000001

@@ -1,0 +1,105 @@
+REGEDIT4
+
+;Removes Briefcase, Bitmap Image, Wordpad Document, Eraser Task Document, Rich Text Document, WordPad Document, Wav Sound and Compressed (zipped) Folder from New Menu.
+[-HKEY_CLASSES_ROOT\.bfc\ShellNew]
+[-HKEY_CLASSES_ROOT\.bmp\ShellNew]
+[-HKEY_CLASSES_ROOT\.doc\ShellNew]
+[-HKEY_CLASSES_ROOT\.ers\ShellNew]
+[-HKEY_CLASSES_ROOT\.rtf\ShellNew]
+[-HKEY_CLASSES_ROOT\.wav\ShellNew]
+[-HKEY_CLASSES_ROOT\.zip\CompressedFolder\ShellNew]
+;Remove Manage From My Computer Right Click
+[-HKEY_CLASSES_ROOT\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\Manage]
+;Remove Sharing and Security From Drives and Folders Right Click
+[-HKEY_CLASSES_ROOT\Drive\shellex\ContextMenuHandlers\Sharing]
+[-HKEY_CLASSES_ROOT\Directory\shellex\ContextMenuHandlers\Sharing]
+;Remove Eraser Text From Recycle Bin Right Click
+[-HKEY_CLASSES_ROOT\CLSID\{645FF040-5081-101B-9F08-00AA002F954E}\Shell\Erasext]
+;Remove Optimize with PerfectDisk from Drive Icon Right-Click
+[-HKEY_CLASSES_ROOT\Drive\shell\Optimize using PerfectDisk]
+;Remove Print For Image Files
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\print]
+;Remove Print From inf File
+[-HKEY_CLASSES_ROOT\inffile\shell\print]
+;Remove Print From Internet Shortcut
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\InternetShortcut\shell\print]
+;Remove Print From reg Files
+[-HKEY_CLASSES_ROOT\regfile\shell\print]
+;Remove Print From txt Files
+[-HKEY_CLASSES_ROOT\txtfile\shell\print]
+;Remove Print Fron ini File
+[-HKEY_CLASSES_ROOT\inifile\shell\print]
+;Remove Print From HTML Files
+[-HKEY_CLASSES_ROOT\htmlfile\shell\print]
+;Remove Print From Wordpad RTF Files
+[-HKEY_CLASSES_ROOT\rtffile\shell\print]
+;Remove Print From Batch Files
+[-HKEY_CLASSES_ROOT\batfile\shell\print]
+;Remove Print From CMD Files
+[-HKEY_CLASSES_ROOT\cmdfile\shell\print]
+;Remove Record From Wave Files
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\SoundRec\shell\record]
+;Remove Play On My For AVI File
+[-HKEY_CLASSES_ROOT\AVIFile\shellex\ContextMenuHandlers\PlayOnMyTV]
+;Remove Play On My For MPEG and MPG Files
+[-HKEY_CLASSES_ROOT\mpegfile\shellex\ContextMenuHandlers\PlayOnMyTV]
+;Remove Play On My For WMV File
+[-HKEY_CLASSES_ROOT\WMVFile\shellex\ContextMenuHandlers\PlayOnMyTV]
+;Remove "Add to Sync List" & "Add to Burn List" from MPEG & MPG Files
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.mpeg\shellex\ContextMenuHandlers\WMPBurnAudioCD]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.mpg\shellex\ContextMenuHandlers\WMPBurnAudioCD]
+[-HKEY_CLASSES_ROOT\mpegfile\shellex\ContextMenuHandlers\WMPBurnAudioCD]
+;Remove "Add to Sync List" & "Add to Burn List" from AVI Files
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.avi\shellex\ContextMenuHandlers\WMPBurnAudioCD]
+[-HKEY_CLASSES_ROOT\AVIFile\shellex\ContextMenuHandlers\WMPBurnAudioCD]
+;Remove "Add to Sync List" & "Add to Burn List" from WMV Files
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.wmv\shellex\ContextMenuHandlers\WMPBurnAudioCD]
+[-HKEY_CLASSES_ROOT\WMVFile\shellex\ContextMenuHandlers\WMPBurnAudioCD]
+;This key also needs to be removed along with any of the 4 keys below
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\video\shellex\ContextMenuHandlers\WMPAddToPlaylist]
+;Remove Add to Now Playing List and Add to Playlist for WMV files
+[-HKEY_CLASSES_ROOT\WMVFile\shellex\ContextMenuHandlers\WMPAddToPlaylist]
+;Remove Add to Now Playing List and Add to Playlist for MPEG AND MPG Files
+[-HKEY_CLASSES_ROOT\mpegfile\shellex\ContextMenuHandlers\WMPAddToPlaylist]
+;Remove Add to Now Playing List and Add to Playlist for ASF Files
+[-HKEY_CLASSES_ROOT\ASFFile\shellex\ContextMenuHandlers\WMPAddToPlaylist]
+;Remove Add to Now Playing List and Add to Playlist for Avi Files
+[-HKEY_CLASSES_ROOT\AVIFile\shellex\ContextMenuHandlers\WMPAddToPlaylist]
+;Remove Make Available Offline From Internet Shortcuts
+[-HKEY_CLASSES_ROOT\InternetShortcut\shellex\ContextMenuHandlers\{FBF23B40-E3F0-101B-8488-00AA003E56F8}]
+;This key also needs to be removed along with any of the 4 keys below
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\video\shellex\ContextMenuHandlers\WMPAddToPlaylist]
+;Remove Add to Now Playing List and Add to Playlist for WMV files
+[-HKEY_CLASSES_ROOT\WMVFile\shellex\ContextMenuHandlers\WMPAddToPlaylist]
+;Remove Add to Now Playing List and Add to Playlist for MPEG AND MPG Files
+[-HKEY_CLASSES_ROOT\mpegfile\shellex\ContextMenuHandlers\WMPAddToPlaylist]
+;Remove Add to Now Playing List and Add to Playlist for ASF Files
+[-HKEY_CLASSES_ROOT\ASFFile\shellex\ContextMenuHandlers\WMPAddToPlaylist]
+;Remove Add to Now Playing List and Add to Playlist for Avi Files
+[-HKEY_CLASSES_ROOT\AVIFile\shellex\ContextMenuHandlers\WMPAddToPlaylist]
+;Remove Play On My For AVI File
+[-HKEY_CLASSES_ROOT\AVIFile\shellex\ContextMenuHandlers\PlayOnMyTV]
+;Remove Play On My For MPEG and MPG Files
+[-HKEY_CLASSES_ROOT\mpegfile\shellex\ContextMenuHandlers\PlayOnMyTV]
+;Remove Play On My For WMV File
+[-HKEY_CLASSES_ROOT\WMVFile\shellex\ContextMenuHandlers\PlayOnMyTV]
+;Remove Print From HTML Files
+[-HKEY_CLASSES_ROOT\htmlfile\shell\print]
+;Remove Print From Wordpad RTF Files
+[-HKEY_CLASSES_ROOT\rtffile\shell\print]
+;Remove Print From Batch Files
+[-HKEY_CLASSES_ROOT\batfile\shell\print]
+;Remove Print From CMD Files
+[-HKEY_CLASSES_ROOT\cmdfile\shell\print]
+;Remove "Add to Sync List" & "Add to Burn List" from MPEG & MPG Files
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.mpeg\shellex\ContextMenuHandlers\WMPBurnAudioCD]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.mpg\shellex\ContextMenuHandlers\WMPBurnAudioCD]
+[-HKEY_CLASSES_ROOT\mpegfile\shellex\ContextMenuHandlers\WMPBurnAudioCD]
+;Remove "Add to Sync List" & "Add to Burn List" from AVI Files
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.avi\shellex\ContextMenuHandlers\WMPBurnAudioCD]
+[-HKEY_CLASSES_ROOT\AVIFile\shellex\ContextMenuHandlers\WMPBurnAudioCD]
+;Remove "Add to Sync List" & "Add to Burn List" from WMV Files
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.wmv\shellex\ContextMenuHandlers\WMPBurnAudioCD]
+[-HKEY_CLASSES_ROOT\WMVFile\shellex\ContextMenuHandlers\WMPBurnAudioCD]
+;Remove Make Available Offline From Internet Shortcuts
+[-HKEY_CLASSES_ROOT\InternetShortcut\shellex\ContextMenuHandlers\{FBF23B40-E3F0-101B-8488-00AA003E56F8}]

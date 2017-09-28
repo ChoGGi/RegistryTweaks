@@ -1,0 +1,6 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\lanmanworkstation\parameters]
+"MaxCmds"=dword:00000064
+"MaxThreads"=dword:00000064
+"MaxCollectionCount"=dword:00000064

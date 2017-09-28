@@ -1,0 +1,8 @@
+REGEDIT4
+
+[-HKEY_CLASSES_ROOT\AudioCD\shell\PlayWithPowerDVD]
+[-HKEY_CLASSES_ROOT\AudioCD\shell\PlayWithPowerDVD8]
+[-HKEY_CLASSES_ROOT\DVD\shell\PlayWithPowerDVD8]
+[-HKEY_CLASSES_ROOT\VCD\Shell\PlayWithPowerDVD8]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\DVD\shell\PlayWithPowerDVD8]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\VCD\Shell\PlayWithPowerDVD8]

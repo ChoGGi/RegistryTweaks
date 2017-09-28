@@ -1,0 +1,3 @@
+this one needs to be edited before running
+
+you can use loadorder by sysinternals if you want to stick drivers on a ramdisk

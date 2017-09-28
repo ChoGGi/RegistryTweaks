@@ -1,0 +1,6 @@
+REGEDIT4
+
+[-HKEY_CLASSES_ROOT\.odg\LibreOffice.DrawDocument.1\ShellNew]
+[-HKEY_CLASSES_ROOT\.odp\LibreOffice.ImpressDocument.1\ShellNew]
+[-HKEY_CLASSES_ROOT\.ods\LibreOffice.CalcDocument.1\ShellNew]
+[-HKEY_CLASSES_ROOT\.odt\LibreOffice.WriterDocument.1\ShellNew]

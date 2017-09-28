@@ -1,0 +1,34 @@
+;fix if you can't delete user from "Local Users and Groups"
+
+REGEDIT4
+
+[HKEY_CLASSES_ROOT\LDAP\Clsid]
+@="{228D9A81-C302-11cf-9AA4-00AA004A5691}"
+
+[HKEY_CLASSES_ROOT\CLSID\{080d0d78-f421-11d0-a36e-00c04fb950dc}]
+@="ADs LDAP Pathname Descriptor Object"
+
+[HKEY_CLASSES_ROOT\CLSID\{080d0d78-f421-11d0-a36e-00c04fb950dc}\InprocServer32]
+@="activeds.dll"
+"ThreadingModel"="Both"
+
+[HKEY_CLASSES_ROOT\CLSID\{080d0d78-f421-11d0-a36e-00c04fb950dc}\ProgID]
+@="Pathname"
+
+[HKEY_CLASSES_ROOT\CLSID\{080d0d78-f421-11d0-a36e-00c04fb950dc}\TypeLib]
+@="{97d25db0-0363-11cf-abc4-02608c9e7553}"
+
+[HKEY_CLASSES_ROOT\CLSID\{080d0d78-f421-11d0-a36e-00c04fb950dc}\Version]
+@="0.0"
+
+[HKEY_CLASSES_ROOT\TypeLib\{97d25db0-0363-11cf-abc4-02608c9e7553}\1.0]
+@="Active DS Type Library"
+
+[HKEY_CLASSES_ROOT\TypeLib\{97d25db0-0363-11cf-abc4-02608c9e7553}\1.0\0\win32]
+@="C:\\WINDOWS\\system32\\activeds.tlb"
+
+[HKEY_CLASSES_ROOT\TypeLib\{97d25db0-0363-11cf-abc4-02608c9e7553}\1.0\FLAGS]
+@="0"
+
+[HKEY_CLASSES_ROOT\TypeLib\{97d25db0-0363-11cf-abc4-02608c9e7553}\1.0\HELPDIR]
+@="C:\\WINDOWS\\system32"

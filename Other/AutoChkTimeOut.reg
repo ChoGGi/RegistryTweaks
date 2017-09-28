@@ -1,0 +1,5 @@
+REGEDIT4
+
+;in seconds
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager]
+"AutoChkTimeOut"=dword:00000003
