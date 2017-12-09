@@ -1,0 +1,6 @@
+REGEDIT4
+
+;hide the shortcut icon on shortcuts
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Icons]
+"29"="%SystemRoot%\\System32\\shell32.dll,50"
+
