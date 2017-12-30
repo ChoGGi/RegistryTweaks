@@ -4,4 +4,4 @@ REGEDIT4
 @="@SYS:DoesNotExist"
 
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
-"NoDriveTypeAutoRun"=dword:00000255
+"NoDriveTypeAutoRun"=dword:000000FF

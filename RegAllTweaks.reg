@@ -1,8 +1,8 @@
 REGEDIT4
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Executive]
-"AdditionalCriticalWorkerThreads"=dword:0000000c
-"AdditionalDelayedWorkerThreads"=dword:0000000c
+"AdditionalCriticalWorkerThreads"=dword:00000010
+"AdditionalDelayedWorkerThreads"=dword:00000010
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager]
 "AllowProtectedRenames"=dword:00000001
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\AlwaysUnloadDLL]
@@ -23,7 +23,7 @@ REGEDIT4
 [HKEY_CURRENT_USER\Software\Microsoft\Command Processor]
 "CompletionChar"=dword:00000009
 "PathCompletionChar"=dword:00000009
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
 "DelayedDesktopSwitchTimeout"=dword:00000005
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Environment]
 "DEVMGR_SHOW_NONPRESENT_DEVICES"="1"
@@ -188,20 +188,20 @@ REGEDIT4
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\IniFileMapping\autorun.inf]
 @="@SYS:DoesNotExist"
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
-"NoDriveTypeAutoRun"=dword:00000255
+"NoDriveTypeAutoRun"=dword:000000FF
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\WebView\BarricadedFolders\]
 "shell:ControlPanelFolder"=dword:00000000
 "shell:SystemDriveRootFolder"=dword:00000000
 "shell:ProgramFiles"=dword:00000000
 "shell:Windows"=dword:00000000
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
 "NoResolveTrack"=dword:00000001
 "NoResolveSearch"=dword:00000001
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters]
 "NetFailureCacheTime"=dword:00000000
 "NegativeSOACacheTime"=dword:00000000
 "NegativeCacheTime"=dword:00000000
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
 "NoStartBanner"=dword:00000001
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Desktop\CleanupWiz]
 "NoRun"="1"
@@ -215,16 +215,16 @@ REGEDIT4
 "DoReport"=dword:00000000
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\]
 "AllowMultipleTSSessions"=dword:00000000
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\policies\System]
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\policies\System]
 "NoInternetOpenWith"=dword:00000001
 "InternetOpenWith"=dword:00000000
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
 "InternetOpenWith"=dword:00000000
 "NoInternetOpenWith"=dword:00000001
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\comdlg32]
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\comdlg32]
 "NoFileMru"=dword:00000001
 "NoMru"=dword:00000001
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Network]
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Network]
 "NoFileSharing"=dword:00000001
 "NoPrintSharing"=dword:00000001
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Eventlog\Application]
@@ -233,12 +233,7 @@ REGEDIT4
 "RestrictGuestAccess"=dword:00000001
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\ActiveDesktop]
 "NoChangingWallPaper"=-
-[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\ActiveDesktop]
-"NoChangingWallPaper"=-
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System]
-"Wallpaper"=-
-"WallpaperStyle"=-
-[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System]
 "Wallpaper"=-
 "WallpaperStyle"=-
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters]
@@ -283,15 +278,77 @@ REGEDIT4
 "Enabled"=dword:00000000
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\PCT 1.0\Server]
 "Enabled"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\.NET CLR Data\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\.NET CLR Networking\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\.NET CLR Networking 4.0.0.0\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\.NET Data Provider for Oracle\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\.NET Data Provider for SqlServer\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\.NET Memory Cache 4.0\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\.NETFramework\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\ASP.NET_4.0.30319\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\aspnet_state\Performance]
+"Disable Performance Counters"=dword:00000001
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\BITS\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\ContentFilter\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\ContentIndex\Performance]
 "Disable Performance Counters"=dword:00000001
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\ESENT\Performance]
 "Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\Intel Storage Counters\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\IPSec\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\ISAPISearch\Performance]
+"Disable Performance Counters"=dword:00000001
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\Lsa\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\MSDTC\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\MSDTC Bridge 3.0.0.0\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\MSDTC Bridge 4.0.0.0\Performance]
 "Disable Performance Counters"=dword:00000001
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\MSSCNTRS\Performance]
 "Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\PerfDisk\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\PerfNet\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\PerfOS\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\PerfProc\Performance]
+"Disable Performance Counters"=dword:00000001
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\rdyboost\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\RemoteAccess\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\ServiceModelEndpoint 3.0.0.0\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\ServiceModelOperation 3.0.0.0\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\ServiceModelService 3.0.0.0\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\SMSvcHost 3.0.0.0\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\SMSvcHost 4.0.0.0\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\Spooler\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\TapiSrv\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\Tcpip\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\TermService\Performance]
 "Disable Performance Counters"=dword:00000001
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\UGatherer\Performance]
 "Disable Performance Counters"=dword:00000001
@@ -299,79 +356,16 @@ REGEDIT4
 "Disable Performance Counters"=dword:00000001
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\usbhub\Performance]
 "Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\Windows Workflow Foundation 3.0.0.0\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\Windows Workflow Foundation 4.0.0.0\Performance]
+"Disable Performance Counters"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\WmiApRpl\Performance]
+"Disable Performance Counters"=dword:00000001
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\WSearchIdxPi\Performance]
-"Disable Performance Counters"=dword:00000001
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\.NET CLR Data\Performance]
-"Disable Performance Counters"=dword:00000001
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\.NET CLR Networking\Performance]
-"Disable Performance Counters"=dword:00000001
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\.NET Data Provider for Oracle\Performance]
-"Disable Performance Counters"=dword:00000001
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\.NET Data Provider for SqlServer\Performance]
-"Disable Performance Counters"=dword:00000001
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\.NETFramework\Performance]
-"Disable Performance Counters"=dword:00000001
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ASP.NET\Performance]
-"Disable Performance Counters"=dword:00000001
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ASP.NET_2.0.50727\Performance]
-"Disable Performance Counters"=dword:00000001
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ASP.NET_64\Performance]
-"Disable Performance Counters"=dword:00000001
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ASP.NET_64_2.0.50727\Performance]
-"Disable Performance Counters"=dword:00000001
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\aspnet_state\Performance]
-"Disable Performance Counters"=dword:00000001
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ContentFilter\Performance]
-"Disable Performance Counters"=dword:00000001
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ContentIndex\Performance]
-"Disable Performance Counters"=dword:00000001
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\IPSec\Performance]
-"Disable Performance Counters"=dword:00000001
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ISAPISearch\Performance]
-"Disable Performance Counters"=dword:00000001
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MSDTC\Performance]
-"Disable Performance Counters"=dword:00000001
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MSDTC Bridge 3.0.0.0\Performance]
-"Disable Performance Counters"=dword:00000001
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfDisk\Performance]
-"Disable Performance Counters"=dword:00000001
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfNet\Performance]
-"Disable Performance Counters"=dword:00000001
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance]
-"Disable Performance Counters"=dword:00000001
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfProc\Performance]
-"Disable Performance Counters"=dword:00000001
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PSched\Performance]
-"Disable Performance Counters"=dword:00000001
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RemoteAccess\Performance]
-"Disable Performance Counters"=dword:00000001
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ServiceModelEndpoint 3.0.0.0\Performance]
-"Disable Performance Counters"=dword:00000001
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ServiceModelOperation 3.0.0.0\Performance]
-"Disable Performance Counters"=dword:00000001
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ServiceModelService 3.0.0.0\Performance]
-"Disable Performance Counters"=dword:00000001
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SMSvcHost 3.0.0.0\Performance]
-"Disable Performance Counters"=dword:00000001
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Spooler\Performance]
-"Disable Performance Counters"=dword:00000001
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\TapiSrv\Performance]
-"Disable Performance Counters"=dword:00000001
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Performance]
-"Disable Performance Counters"=dword:00000001
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\TermService\Performance]
-"Disable Performance Counters"=dword:00000001
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Windows Workflow Foundation 3.0.0.0\Performance]
-"Disable Performance Counters"=dword:00000001
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WmiApRpl\Performance]
 "Disable Performance Counters"=dword:00000001
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Audio]
 "DisableProtectedAudioDG"=dword:00000001
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
-"NoRecentDocsMenu"=dword:00000001
-"NoRecentDocsNetHood"=hex:01,00,00,00
-"NoRecentDocsHistory"=hex:01,00,00,00
-"ClearRecentDocsOnExit"=hex:01,00,00,00
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
 "NoRecentDocsMenu"=dword:00000001
 "NoRecentDocsNetHood"=hex:01,00,00,00
@@ -381,9 +375,9 @@ REGEDIT4
 "EnableDCOM"="N"
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Rpc]
 "DCOM Protocols"=hex(7):00
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoSaveSettings"=dword:00000001
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Attachments]
-"ScanWithAntiVirus"=dword:00000000
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Attachments]
 "ScanWithAntiVirus"=dword:00000000
 [HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Main]
 "Disable Script Debugger"="yes"
@@ -405,7 +399,7 @@ REGEDIT4
 "forceguest"=dword:00000000
 [HKEY_CURRENT_USER\Control Panel\Desktop]
 "SmoothScroll"=dword:00000000
-[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
 "NoLogOff"=dword:1
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ACPI\Parameters]
 "Attributes"=dword:70
@@ -461,13 +455,13 @@ REGEDIT4
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server]
 "AllowTSConnections"=dword:00000000
 "fDenyTSConnections"=dword:00000001
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
 "EnableLUA"=dword:00000000
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DirectPlayNATHelp\DPNHUPnP]
 "UPnPMode"=dword:00000002
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\UnreadMail]
 "MessageExpiryDays"=dword:00000000
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
 "NoInstrumentation"=dword:00000001
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer]
 "NoInstrumentation"=dword:00000001
@@ -501,7 +495,7 @@ MinAnimate="0"
 "MaxSOACacheEntryTtlLimit"=dword:0000012d
 "MaxNegativeCacheTtl"=dword:00000000
 "MaxCacheTtl"=dword:00003840
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\policies\system]
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\policies\system]
 "dontdisplaylastusername"=dword:00000001
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\MRT]
 "DontReportInfectionInformation"=dword:00000001
@@ -525,7 +519,7 @@ MinAnimate="0"
 "FontSmoothingGamma"=dword:000003e8
 [HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\WindowsUpdate]
 "ElevateNonAdmins"=dword:00000001
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
 "NoFolderOptions"=dword:00000000
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem]
 "LongPathsEnabled"=dword:00000001
@@ -566,12 +560,12 @@ MinAnimate="0"
 "SuperHidden"=dword:00000001
 "ShowSuperHidden"=dword:00000001
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer]
-"Max Cached Icons"="5000"
+"Max Cached Icons"="4096"
 [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer]
-"Max Cached Icons"="5000"
+"Max Cached Icons"="4096"
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
 "NoNetCrawling"=dword:00000001
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Network]
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Network]
 "NoNetHood"=dword:00000001
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
 "FriendlyTree"=dword:00000000
@@ -725,13 +719,13 @@ MinAnimate="0"
 "CallForAttributes"=dword:00000040
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Applets\Regedit\Favorites]
 "RegEdit Favs"="Computer\\HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Applets\\Regedit\\Favorites"
-"TaskMan"="Computer\\HKEY_CURRENT_USER\\Software\\Microsoft\\Windows NT\\CurrentVersion\\TaskManager"
 "Context Menu"="Computer\\HKEY_CLASSES_ROOT\\*\\shellex\\ContextMenuHandlers"
 "CLSID"="Computer\\HKEY_CLASSES_ROOT\\CLSID"
 "Applications"="Computer\\HKEY_CLASSES_ROOT\\Applications"
 "Directory"="Computer\\HKEY_CLASSES_ROOT\\Directory"
 "Drive"="Computer\\HKEY_CLASSES_ROOT\\Drive"
 "Folder"="Computer\\HKEY_CLASSES_ROOT\\Folder"
+"AllFilesystemObjects"="Computer\\HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\AllFilesystemObjects"
 "Shell Folders LM"="Computer\\HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders"
 "Shell Folders LM32"="Computer\\HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders"
 "Shell Folders CU"="Computer\\HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders"
@@ -766,32 +760,53 @@ MinAnimate="0"
 "UriMaxUriBytes"=dword:00040000
 "UriScavengerPeriod"=dword:00000078
 "UrlSegmentMaxLength"=dword:00000104
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\AeLookupSvc]
-"Start"=dword:00000004
-"ErrorControl"=dword:00000000
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Alerter]
-"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\AdobeFlashPlayerUpdateSvc]
+"Start"=dword:00000003
 "ErrorControl"=dword:00000000
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ALG]
-"Start"=dword:00000004
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\AppIDSvc]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Appinfo]
+"Start"=dword:00000003
 "ErrorControl"=dword:00000000
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\AppMgmt]
 "Start"=dword:00000003
 "ErrorControl"=dword:00000000
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\AudioSrv]
-"Start"=dword:00000002
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ArcService]
+"Start"=dword:00000003
 "ErrorControl"=dword:00000000
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BITS]
-"Start"=dword:00000002
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\asComSvc]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\asHmComSvc]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\aspnet_state]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\AsusFanControlService]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\AxInstSV]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BDESVC]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BEService]
+"Start"=dword:00000003
 "ErrorControl"=dword:00000000
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Browser]
-"Start"=dword:00000004
+"Start"=dword:00000003
 "ErrorControl"=dword:00000000
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\cisvc]
-"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\bthserv]
+"Start"=dword:00000003
 "ErrorControl"=dword:00000000
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ClipSrv]
-"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\CLink4Service]
+"Start"=dword:00000003
 "ErrorControl"=dword:00000000
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\clr_optimization_v2.0.50727_32]
 "Start"=dword:00000004
@@ -800,108 +815,244 @@ MinAnimate="0"
 "Start"=dword:00000004
 "ErrorControl"=dword:00000000
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\COMSysApp]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\CorsairSSDToolBox]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\CscService]
 "Start"=dword:00000004
 "ErrorControl"=dword:00000000
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\xmlprov]
-"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\defragsvc]
+"Start"=dword:00000003
 "ErrorControl"=dword:00000000
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\CryptSvc]
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\DesuraInstallService]
 "Start"=dword:00000003
 "ErrorControl"=dword:00000000
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Dhcp]
-"Start"=dword:00000002
+"Start"=dword:00000004
 "ErrorControl"=dword:00000000
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\dmadmin]
-"Start"=dword:00000003
-"ErrorControl"=dword:00000000
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\dmserver]
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\DiagTrack]
 "Start"=dword:00000003
 "ErrorControl"=dword:00000000
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Dnscache]
-"DisplayName"="DNS Cache"
+"Start"=dword:00000004
 "ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\dot3svc]
 "Start"=dword:00000003
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ERSvc]
 "ErrorControl"=dword:00000000
-"Start"=dword:00000004
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Eventlog]
-"Start"=dword:00000002
-"ErrorControl"=dword:00000000
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\EventSystem]
-"ErrorControl"=dword:00000000
-"Start"=dword:00000004
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\FastUserSwitchingCompatibility]
-"ErrorControl"=dword:00000000
-"Start"=dword:00000004
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\helpsvc]
-"ErrorControl"=dword:00000000
-"Start"=dword:00000004
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\HidServ]
-"ErrorControl"=dword:00000000
-"Start"=dword:00000002
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ImapiService]
-"ErrorControl"=dword:00000000
-"Start"=dword:00000004
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\lanmanserver]
-"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\DSClockSyncTime]
 "Start"=dword:00000003
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\lanmanworkstation]
 "ErrorControl"=dword:00000000
-"Start"=dword:00000002
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LmHosts]
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\EapHost]
+"Start"=dword:00000003
 "ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\EasyAntiCheat]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\EFS]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ehRecvr]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ehSched]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Fax]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\fdPHost]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\FDResPub]
 "Start"=dword:00000004
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Messenger]
 "ErrorControl"=dword:00000000
-"Start"=dword:00000004
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\mnmsrvc]
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\FlexNetLicensingService]
+"Start"=dword:00000003
 "ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\FLEXnetLicensingService64]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\FontCache3.0.0.]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\GalaxyClientService]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\GalaxyCommunication]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\gupdatem]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\hidserv]
 "Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\hkmsvc]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\HomeGroupListener]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\HomeGroupProvider]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\IAStorDataMgrSvc]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ICCS]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\IDriverT]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\idsvc]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\IKEEXT]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ImDskSvc]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\impi_hydra]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Intel(R)CapabilityLicensingServiceTCPIPInterface]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Intel(R)MEService]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Intel(R)PROSetMonitoringService]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\IPBusEnum]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\IpHlpSvc]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\IpOverUsbSvc]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\iumsvc]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\jhi_service]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\KtmRm]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanWorkstation]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\lltdsvc]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\lmhosts]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Mcx2Svc]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MSDTC]
-"Start"=dword:00000004
-"ErrorControl"=dword:00000000
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MSIServer]
 "Start"=dword:00000003
 "ErrorControl"=dword:00000000
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NetDDE]
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MSiSCSI]
+"Start"=dword:00000003
 "ErrorControl"=dword:00000000
-"Start"=dword:00000004
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NetDDEdsdm]
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\msiserver]
+"Start"=dword:00000003
 "ErrorControl"=dword:00000000
-"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\napagent]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Netlogon]
-"ErrorControl"=dword:00000000
-"Start"=dword:00000004
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Netman]
 "Start"=dword:00000003
 "ErrorControl"=dword:00000000
-"ImagePath"=hex(2):73,79,73,74,65,6d,33,32,5c,73,76,63,68,6f,73,74,2e,65,78,65,20,2d,6b,20,6e,65,74,73,76,63,73,00
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Nla]
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NetMsmqActivator]
 "Start"=dword:00000004
 "ErrorControl"=dword:00000000
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NtLmSsp]
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NetPipeActivator]
 "Start"=dword:00000004
 "ErrorControl"=dword:00000000
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NtmsSvc]
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NetTcpActivator]
 "Start"=dword:00000004
 "ErrorControl"=dword:00000000
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PlugPlay]
-"Start"=dword:00000002
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NetTcpPortSharing]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NvContainerLocalSystem]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NvContainerNetworkService]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NVDisplay.ContainerLocalSystem]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NvTelemetryContainer]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\OriginClientService]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\OriginWebHelperService]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\p2pimsvc]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\p2psvc]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PAExec]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PeerDistSvc]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfHost]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PinnacleUpdateSvc]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\pla]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PNRPAutoReg]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PNRPsvc]
+"Start"=dword:00000003
 "ErrorControl"=dword:00000000
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PolicyAgent]
 "Start"=dword:00000004
 "ErrorControl"=dword:00000000
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ProtectedStorage]
-"Start"=dword:00000004
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\QWAVE]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Radarr]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RadeonProSupportService]
+"Start"=dword:00000003
 "ErrorControl"=dword:00000000
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RasAuto]
-"Start"=dword:00000004
+"Start"=dword:00000003
 "ErrorControl"=dword:00000000
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RasMan]
-"Start"=dword:00000004
-"ErrorControl"=dword:00000000
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RDSessMgr]
-"Start"=dword:00000004
+"Start"=dword:00000003
 "ErrorControl"=dword:00000000
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RemoteAccess]
 "Start"=dword:00000004
@@ -910,137 +1061,165 @@ MinAnimate="0"
 "Start"=dword:00000004
 "ErrorControl"=dword:00000000
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RpcLocator]
-"Start"=dword:00000004
+"Start"=dword:00000003
 "ErrorControl"=dword:00000000
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RSVP]
-"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SCPolicySvc]
+"Start"=dword:00000003
 "ErrorControl"=dword:00000000
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SamSs]
-"Start"=dword:00000004
-"ErrorControl"=dword:00000000
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SCardDrv]
-"Start"=dword:00000004
-"ErrorControl"=dword:00000000
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SCardSvr]
-"Start"=dword:00000004
-"ErrorControl"=dword:00000000
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Schedule]
-"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SDRSVC]
+"Start"=dword:00000003
 "ErrorControl"=dword:00000000
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\seclogon]
 "Start"=dword:00000004
 "ErrorControl"=dword:00000000
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SENS]
-"ErrorControl"=dword:00000000
 "Start"=dword:00000003
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SharedAccess]
-"Start"=dword:00000004
 "ErrorControl"=dword:00000000
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\httpfilter]
-"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SensrSvc]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SessionEnv]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SharedAccess]
+"Start"=dword:00000003
 "ErrorControl"=dword:00000000
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ShellHWDetection]
 "Start"=dword:00000004
 "ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SNMPTRAP]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Spooler]
 "Start"=dword:00000004
 "ErrorControl"=dword:00000000
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\spupdsvc]
-"Start"=dword:00000004
-"ErrorControl"=dword:00000000
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\srservice]
-"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\sppuinotify]
+"Start"=dword:00000003
 "ErrorControl"=dword:00000000
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SSDPSRV]
 "Start"=dword:00000004
 "ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SstpSvc]
+"Start"=dword:00000004
+"ErrorControl"=dword:00000000
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\stisvc]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Subsonic]
 "Start"=dword:00000004
 "ErrorControl"=dword:00000000
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SwPrv]
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\swprv]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SysMain]
 "Start"=dword:00000004
 "ErrorControl"=dword:00000000
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SysmonLog]
-"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SystemExplorerHelpService]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\TabletInputService]
+"Start"=dword:00000003
 "ErrorControl"=dword:00000000
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\TapiSrv]
 "Start"=dword:00000004
 "ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Te.Service]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\TermService]
-"Start"=dword:00000004
-"ErrorControl"=dword:00000000
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Themes]
-"Start"=dword:00000004
-"ErrorControl"=dword:00000000
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\TlntSvr]
-"Start"=dword:00000004
+"Start"=dword:00000003
 "ErrorControl"=dword:00000000
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\TrkWks]
 "Start"=dword:00000004
 "ErrorControl"=dword:00000000
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\uploadmgr]
-"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\TrustedInstaller]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\UI0Detect]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\UmRdpService]
+"Start"=dword:00000003
 "ErrorControl"=dword:00000000
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\upnphost]
-"Start"=dword:00000004
+"Start"=dword:00000003
 "ErrorControl"=dword:00000000
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\UPS]
-"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\VaultSvc]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\vds]
+"Start"=dword:00000003
 "ErrorControl"=dword:00000000
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\VSS]
-"Start"=dword:00000004
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\VSStandardCollectorService14]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\VSStandardCollectorService15]
+"Start"=dword:00000003
 "ErrorControl"=dword:00000000
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\W32Time]
 "Start"=dword:00000004
 "ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WatAdminSvc]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\wbengine]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WbioSrvc]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\wcncsvc]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WcsPlugInService]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WebClient]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Wecsvc]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\wercplsupport]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WerSvc]
 "Start"=dword:00000004
 "ErrorControl"=dword:00000000
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\winmgmt]
-"Start"=dword:00000002
-"ErrorControl"=dword:00000000
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WmdmPmSp]
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WinDefend]
 "Start"=dword:00000004
 "ErrorControl"=dword:00000000
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Wmi]
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WinHttpAutoProxySvc]
 "Start"=dword:00000004
 "ErrorControl"=dword:00000000
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WmiApSrv]
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WinRM]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WinstepXtremeService]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Wlansvc]
 "Start"=dword:00000004
 "ErrorControl"=dword:00000000
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\wuauserv]
-"Start"=dword:00000002
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\wlidsvc]
+"Start"=dword:00000003
 "ErrorControl"=dword:00000000
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WZCSVC]
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\wmiApSrv]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WPCSvc]
+"Start"=dword:00000003
+"ErrorControl"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WPDBusEnum]
 "Start"=dword:00000004
 "ErrorControl"=dword:00000000
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\wscsvc]
 "Start"=dword:00000004
 "ErrorControl"=dword:00000000
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\sr]
-"Start"=dword:00000004
-"ErrorControl"=dword:00000000
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Dcomlaunch]
-"Start"=dword:00000002
-"ErrorControl"=dword:00000000
-"FailureActions"=hex:80,51,01,00,00,00,00,00,00,00,00,00,03,00,00,00,14,00,00,00,01,00,00,00,60,ea,00,00,01,00,00,00,60,ea,00,00,01,00,00,00,60,ea,00,00
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RpcSs]
-"Start"=dword:00000002
-"ErrorControl"=dword:00000001
-"FailureActions"=hex:80,51,01,00,00,00,00,00,00,00,00,00,03,00,00,00,14,00,00,00,01,00,00,00,60,ea,00,00,01,00,00,00,60,ea,00,00,01,00,00,00,60,ea,00,00
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\clr_optimization_v2.0.50727_32]
-"Start"=dword:00000003
-"ErrorControl"=dword:00000000
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\aspnet_state]
-"Start"=dword:00000003
-"ErrorControl"=dword:00000000
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WmdmPmSN]
-"Start"=dword:00000003
-"ErrorControl"=dword:00000000
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WMConnectCDS]
-"Start"=dword:00000003
-"ErrorControl"=dword:00000000
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\UMWdf]
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WwanSvc]
 "Start"=dword:00000003
 "ErrorControl"=dword:00000000
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Alerter]

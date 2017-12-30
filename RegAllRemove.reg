@@ -9,9 +9,9 @@ REGEDIT4
 [-HKEY_CURRENT_USER\Software\Elaborate Bytes\CloneCD]
 [-HKEY_CURRENT_USER\Software\Slysoft\CloneCD]
 [-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\VolumeCaches\Compress old files]
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Network]
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Network]
 "NoComputersNearMe"=dword:00000001
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Network]
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Network]
 "NoWorkgroupContents"=dword:00000001
 [-HKEY_CLASSES_ROOT\.bfc\ShellNew]
 [-HKEY_CLASSES_ROOT\.bmp\ShellNew]
@@ -79,7 +79,7 @@ REGEDIT4
 "IEWatsonDisable"=dword:00000001
 [-HKEY_CLASSES_ROOT\Drive\shell\cmd]
 [-HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\edit]
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Network]
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Network]
 "NoEntireNetwork"=dword:00000001
 [HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main]
 "ShowGoButton"="no"
@@ -111,8 +111,10 @@ REGEDIT4
 "NoSMMyDocs"=dword:00000001
 [HKEY_CLASSES_ROOT\CLSID\{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}\ShellFolder]
 "Attributes"=dword:00000000
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
 "NoNetConnectDisconnect"=dword:00000001
+[-HKEY_CLASSES_ROOT\Directory\Background\shell\AnyCode]
+[-HKEY_CLASSES_ROOT\Directory\shell\AnyCode]
 [-HKEY_CLASSES_ROOT\Folder\shell\opennewwindow]
 [-HKEY_CLASSES_ROOT\Folder\shell\pintohome]
 [-HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\{a2a9545d-a0c2-42b4-9708-a0b2badd77c8}]
@@ -171,6 +173,8 @@ REGEDIT4
 [-HKEY_CLASSES_ROOT\.dwf\dwffile\ShellNew]
 [-HKEY_CLASSES_ROOT\.jnt\jntfile\ShellNew]
 [-HKEY_CLASSES_ROOT\.library-ms\ShellNew]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Icons]
+"29"="%SystemRoot%\\System32\\shell32.dll,50"
 [-HKEY_CLASSES_ROOT\SystemFileAssociations\.bmp\Shell\setdesktopwallpaper]
 [-HKEY_CLASSES_ROOT\SystemFileAssociations\.dib\Shell\setdesktopwallpaper]
 [-HKEY_CLASSES_ROOT\SystemFileAssociations\.gif\Shell\setdesktopwallpaper]

@@ -1,0 +1,9 @@
+REGEDIT4
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\ShellNoRoam\MUICache]
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\ShellNoRoam\MUICache]
+"LangID"=hex:09,04
+
+[-HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\MuiCache]
+[HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\MuiCache]
+"LangID"=hex:09,04
