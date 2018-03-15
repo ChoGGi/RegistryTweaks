@@ -1,4 +1,4 @@
-Windows Registry Editor Version 5.00
+REGEDIT4
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Safer\CodeIdentifiers\0\Paths\{3f444311-248e-47fa-a868-ce76fc21e839}]
 "LastModified"=hex(b):88,E4,E0,07,39,53,D1,01

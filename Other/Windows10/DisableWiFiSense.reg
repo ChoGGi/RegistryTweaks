@@ -1,4 +1,4 @@
-Windows Registry Editor Version 5.00
+REGEDIT4
 
 [HKEY_LOCAL_MACHINE\Software\Microsoft\WcmSvc\wifinetworkmanager]
 "WiFiSenseCredShared"=dword:00000000

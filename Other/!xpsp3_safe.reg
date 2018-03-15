@@ -1,4 +1,4 @@
-Windows Registry Editor Version 5.00
+REGEDIT4
 ; File from www.blackviper.com
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Alerter]
 "Start"=dword:00000004

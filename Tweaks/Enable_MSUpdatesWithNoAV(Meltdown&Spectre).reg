@@ -1,5 +1,6 @@
-Windows Registry Editor Version 5.00
+REGEDIT4
 
+;https://www.bleepingcomputer.com/news/microsoft/microsoft-says-no-more-windows-security-updates-unless-avs-set-a-registry-key/
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\QualityCompat]
 "cadca5fe-87d3-4b96-b7fb-a231484277cc"=dword:00000000
 
