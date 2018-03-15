@@ -1,5 +1,6 @@
 REGEDIT4
 
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Applets\Regedit\Favorites]
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Applets\Regedit\Favorites]
 "RegEdit Favs"="Computer\\HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Applets\\Regedit\\Favorites"
 "Context Menu"="Computer\\HKEY_CLASSES_ROOT\\*\\shellex\\ContextMenuHandlers"

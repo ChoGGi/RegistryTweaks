@@ -1,4 +1,5 @@
 REGEDIT4
 
+[-HKEY_CLASSES_ROOT\Directory\shell\AnyCode]
 [-HKEY_CLASSES_ROOT\Directory\shell\find\AnyCode]
 [-HKEY_CLASSES_ROOT\Directory\Background\shell\AnyCode]
