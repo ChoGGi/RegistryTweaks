@@ -20,17 +20,17 @@ Else IfMsgBox No
 
 Loop 2
   {
-  If (A_Index = 1)
+  If A_Index = 1
     SubKey := "SCSI"
-  Else (If A_Index = 2)
+  Else If A_Index = 2
     SubKey := "IDE"
 
   Loop HKLM,SYSTEM\CurrentControlSet\Enum\%SubKey%,1,1
     {
-    If (A_LoopRegName = "Class")
+    If A_LoopRegName = Class
       {
       RegRead DiskType
-      If DiskType=DiskDrive
+      If DiskType = DiskDrive
         {
         RegWrite REG_DWORD,%A_LoopRegKey%,%A_LoopRegSubKey%\Device Parameters\Disk,CacheIsPowerProtected,%ToggleType%
         RegWrite REG_DWORD,%A_LoopRegKey%,%A_LoopRegSubKey%\Device Parameters\Disk,UserWriteCacheSetting,%ToggleType%

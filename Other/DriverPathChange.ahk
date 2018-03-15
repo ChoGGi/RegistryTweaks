@@ -4,6 +4,9 @@ Process Priority,,A
 #SingleInstance Force
 SetBatchLines -1
 
+MsgBox Example: Edit before running
+ExitApp
+
 DriverPath := "R:\Path to\Drivers"
 
 RegWrite REG_EXPAND_SZ,HKLM,SYSTEM\CurrentControlSet\Services\AFD,ImagePath,\??\%DriverPath%\afd.sys
