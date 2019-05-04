@@ -1,8 +1,12 @@
 REGEDIT4
 
+;overlay icons
 [-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\ GoogleDriveBlacklisted]
 [-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\ GoogleDriveSynced]
 [-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\ GoogleDriveSyncing]
 [-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\  GoogleDriveBlacklisted]
 [-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\  GoogleDriveSynced]
 [-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\  GoogleDriveSyncing]
+;context menu items
+[-HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\GDContextMenu]
+[-HKEY_CLASSES_ROOT\Directory\shellex\ContextMenuHandlers\GDContextMenu]
