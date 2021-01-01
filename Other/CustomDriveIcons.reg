@@ -26,3 +26,6 @@ REGEDIT4
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\DriveIcons\H\DefaultIcon]
 @="R:\\Utils\\Icons\\usb.ico,0"
 
+;Folder Opened
+;Folder Closed
+;Control Panel

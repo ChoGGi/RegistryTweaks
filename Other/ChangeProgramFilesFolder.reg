@@ -1,13 +1,13 @@
 REGEDIT4
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion]
-"ProgramFilesDir"="D:\\"
+"ProgramFilesDir"="D:\\ProgramFiles"
+"ProgramFilesDir (x86)"="D:\\ProgramFiles(x86)"
 "CommonFilesDir"="D:\\Common\\Common Files"
-"ProgramFilesDir (x86)"="D:\\"
 "CommonFilesDir (x86)"="D:\\Common\\Common Files(x86)"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion]
-"ProgramFilesDir"="D:\\"
-"ProgramFilesDir (x86)"="D:\\"
+"ProgramFilesDir"="D:\\ProgramFiles"
+"ProgramFilesDir (x86)"="D:\\ProgramFiles(x86)"
 "CommonFilesDir"="D:\\Common\\Common Files(x86)"
 "CommonFilesDir (x86)"="D:\\Common\\Common Files(x86)"

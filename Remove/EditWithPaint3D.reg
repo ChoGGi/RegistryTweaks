@@ -1,0 +1,16 @@
+REGEDIT4
+
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.bmp\Shell\3D Edit]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.fbx\Shell\3D Edit]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.gif\Shell\3D Edit]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.glb\Shell\3D Edit]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.jfif\Shell\3D Edit]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.jpe\Shell\3D Edit]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.jpeg\Shell\3D Edit]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\Shell\3D Edit]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.obj\Shell\3D Edit]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.ply\Shell\3D Edit]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.png\Shell\3D Edit]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.stl\Shell\3D Edit]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.tif\Shell\3D Edit]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.tiff\Shell\3D Edit]

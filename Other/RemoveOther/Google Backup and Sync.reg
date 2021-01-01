@@ -10,3 +10,4 @@ REGEDIT4
 ;context menu items
 [-HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\GDContextMenu]
 [-HKEY_CLASSES_ROOT\Directory\shellex\ContextMenuHandlers\GDContextMenu]
+[-HKEY_CLASSES_ROOT\lnkfile\shellex\ContextMenuHandlers\GDContextMenu]
