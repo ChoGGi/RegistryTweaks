@@ -4,6 +4,6 @@ REGEDIT4
 [HKEY_CLASSES_ROOT\CLSID\{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}\ShellFolder]
 "Attributes"=dword:00000000
 
-; win710
+; win10 (need to change owner first)
 [HKEY_CLASSES_ROOT\CLSID\{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}]
 "System.IsPinnedToNameSpaceTree"=dword:00000000

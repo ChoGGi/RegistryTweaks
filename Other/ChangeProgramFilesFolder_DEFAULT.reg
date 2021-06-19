@@ -1,0 +1,13 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion]
+"ProgramFilesDir"="C:\\Program Files"
+"ProgramFilesDir (x86)"="C:\\Program Files (x86)"
+"CommonFilesDir"="C:\\Program Files\\Common Files"
+"CommonFilesDir (x86)"="C:\\Program Files (x86)\\Common Files"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion]
+"ProgramFilesDir"="C:\\Program Files"
+"ProgramFilesDir (x86)"="C:\\Program Files (x86)"
+"CommonFilesDir"="C:\\Program Files\\Common Files"
+"CommonFilesDir (x86)"="C:\\Program Files (x86)\\Common Files"
