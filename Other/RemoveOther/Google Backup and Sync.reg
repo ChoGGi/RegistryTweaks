@@ -1,5 +1,7 @@
 REGEDIT4
 
+; change permissions on shell new trash to stop google from re-adding
+
 ;overlay icons
 [-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\ GoogleDriveBlacklisted]
 [-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\ GoogleDriveSynced]

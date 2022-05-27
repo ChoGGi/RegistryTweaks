@@ -10,3 +10,10 @@ REGEDIT4
 [-HKEY_CLASSES_ROOT\.dwf\dwffile\ShellNew]
 [-HKEY_CLASSES_ROOT\.jnt\jntfile\ShellNew]
 [-HKEY_CLASSES_ROOT\.library-ms\ShellNew]
+
+;Google Sheets
+[-HKEY_CLASSES_ROOT\GoogleDriveFS.gsheet]
+;Google Docs
+[-HKEY_CLASSES_ROOT\GoogleDriveFS.gdoc]
+;Google Slides
+[-HKEY_CLASSES_ROOT\GoogleDriveFS.gslides]
