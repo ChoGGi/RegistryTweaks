@@ -13,3 +13,8 @@ REGEDIT4
 [-HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\GDContextMenu]
 [-HKEY_CLASSES_ROOT\Directory\shellex\ContextMenuHandlers\GDContextMenu]
 [-HKEY_CLASSES_ROOT\lnkfile\shellex\ContextMenuHandlers\GDContextMenu]
+
+; Sync or Backup this Folder
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shellex\ContextMenuHandlers\DriveFS 28 or later]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shellex\ContextMenuHandlers\DriveFS 28 or later]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\background\shellex\ContextMenuHandlers\DriveFS 28 or later]

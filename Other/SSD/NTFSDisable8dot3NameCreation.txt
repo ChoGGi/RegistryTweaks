@@ -1,1 +1,0 @@
-SetProperty "HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem" "NTFSDisable8dot3NameCreation" 1

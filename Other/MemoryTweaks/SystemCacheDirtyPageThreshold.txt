@@ -6,7 +6,9 @@ http://support.microsoft.com/kb/920739
 Minimum value: Total physical RAM in MB divided by 64
 Maximum value: Total physical RAM in MB divided by 2
 Default value: 0
-The default value is a nonexistent key. If you add values that are out of range, your computer will revert to the default behavior. The value that you add is measured in MB.
+The default value is a nonexistent key.
+If you add values that are out of range, your computer will revert to the default behavior.
+The value that you add is measured in MB.
 
 4 gigs of ram (4096/64=64)
 00000040

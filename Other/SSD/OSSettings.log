@@ -1,0 +1,36 @@
+*********** Settings changed at 18-03-2023 12:43:24 ************
+Value for HKLM:\SYSTEM\CurrentControlSet\Services\ldap\ldapclientintegrity changed from 1 to 0
+Value for HKLM:\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\IoPageLockLimit changed from 4294967295 to 33394688
+Value for HKLM:\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters\MaxWorkItems created and set to 8192
+Value for HKLM:\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters\MaxMpxCt created and set to 2048
+Value for HKLM:\SYSTEM\CurrentControlSet\Services\LanmanWorkstation\Parameters\MaxCmds created and set to 2048
+Value for HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem\NtfsMftZoneReservation changed from 0 to 2
+Value for HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem\NTFSDisableLastAccessUpdate changed from 2147483649 to 1
+Value for HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem\NTFSDisable8dot3NameCreation changed from 1 to 1
+Value for HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem\DontVerifyRandomDrivers created and set to 1
+Value for HKLM:\System\CurrentControlSet\Services\LanmanServer\Parameters\Size created and set to 3
+Value for HKLM:\System\CurrentControlSet\Control\Session Manager\Memory Management\LargeSystemCache changed from 0 to 0
+*********** Settings changed at 18-03-2023 12:47:53 ************
+Value for HKLM:\SYSTEM\CurrentControlSet\Services\ldap\ldapclientintegrity changed from 0 to 0
+Value for HKLM:\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\IoPageLockLimit changed from 33394688 to 33394688
+Value for HKLM:\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters\MaxWorkItems changed from 8192 to 8192
+Value for HKLM:\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters\MaxMpxCt changed from 2048 to 2048
+Value for HKLM:\SYSTEM\CurrentControlSet\Services\LanmanWorkstation\Parameters\MaxCmds changed from 2048 to 2048
+Value for HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem\NtfsMftZoneReservation changed from 2 to 2
+Value for HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem\NTFSDisableLastAccessUpdate changed from 1 to 1
+Value for HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem\NTFSDisable8dot3NameCreation changed from 1 to 1
+Value for HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem\DontVerifyRandomDrivers changed from 1 to 1
+Value for HKLM:\System\CurrentControlSet\Services\LanmanServer\Parameters\Size changed from 3 to 3
+Value for HKLM:\System\CurrentControlSet\Control\Session Manager\Memory Management\LargeSystemCache changed from 0 to 0
+*********** Settings changed at 18-03-2023 12:50:29 ************
+Value for HKLM:\SYSTEM\CurrentControlSet\Services\ldap\ldapclientintegrity changed from 0 to 0
+Value for HKLM:\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\IoPageLockLimit changed from 33394688 to 33487872
+Value for HKLM:\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters\MaxWorkItems changed from 8192 to 8192
+Value for HKLM:\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters\MaxMpxCt changed from 2048 to 2048
+Value for HKLM:\SYSTEM\CurrentControlSet\Services\LanmanWorkstation\Parameters\MaxCmds changed from 2048 to 2048
+Value for HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem\NtfsMftZoneReservation changed from 2 to 2
+Value for HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem\NTFSDisableLastAccessUpdate changed from 1 to 1
+Value for HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem\NTFSDisable8dot3NameCreation changed from 1 to 1
+Value for HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem\DontVerifyRandomDrivers changed from 1 to 1
+Value for HKLM:\System\CurrentControlSet\Services\LanmanServer\Parameters\Size changed from 3 to 3
+Value for HKLM:\System\CurrentControlSet\Control\Session Manager\Memory Management\LargeSystemCache changed from 0 to 0

@@ -3,5 +3,6 @@ REGEDIT4
 ;https://msdn.microsoft.com/en-us/library/ee377058(v=bts.10).aspx
 ;http://msdn.microsoft.com/en-us/library/cc615012.aspx
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Executive]
-"AdditionalCriticalWorkerThreads"=dword:00000010
-"AdditionalDelayedWorkerThreads"=dword:00000010
+"AdditionalCriticalWorkerThreads"=dword:0000000c
+"AdditionalDelayedWorkerThreads"=dword:0000000c
+
