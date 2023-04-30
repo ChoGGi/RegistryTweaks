@@ -1,0 +1,18 @@
+REGEDIT4
+
+; To disable Spectre V2 mitigations, execute the following:
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
+"FeatureSettingsOverride"=dword:00000001
+"FeatureSettingsOverrideMask"=dword:00000003
+
+; To Disable ITLB Multi-hit mitigations, execute the following:
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Virtualization]
+"IfuErrataMitigations"=dword:00000000
+
+; To disable Spectre V1 AND Spectre V4 mitigations, execute the following:
+
+;reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management" /v FeatureSettingsOverride /t REG_DWORD /d 3 /f
+;reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management" /v FeatureSettingsOverrideMask /t REG_DWORD /d 3 /f
+
+
+; https://www.reddit.com/r/intel/guwch8/

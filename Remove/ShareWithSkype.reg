@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+[-HKEY_CLASSES_ROOT\*\shell\ShareWithSkype]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Blocked]
+"{776DBC8D-7347-478C-8D71-791E12EF49D8}"="Skype"
