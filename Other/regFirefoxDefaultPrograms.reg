@@ -1,0 +1,38 @@
+REGEDIT4
+
+; Infamous capabilities:
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Firefox\Capabilities]
+"ApplicationDescription"="Firefox"
+"ApplicationIcon"="R:\\Utils\\Icons\\Firefox.ico"
+"ApplicationName"="Firefox"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Firefox\Capabilities\FileAssociations]
+".htm"="FirefoxURL"
+".html"="FirefoxURL"
+".shtml"="FirefoxURL"
+".xht"="FirefoxURL"
+".xhtml"="FirefoxURL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Firefox\Capabilities\URLAssociations]
+"ftp"="FirefoxURL"
+"http"="FirefoxURL"
+"https"="FirefoxURL"
+
+; Register to Default Programs
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\RegisteredApplications]
+"Firefox"="Software\\Firefox\\Capabilities"
+
+; FirefoxURL HANDLER:
+
+[HKEY_LOCAL_MACHINE\Software\Classes\FirefoxURL]
+@="Firefox Document"
+"FriendlyTypeName"="Firefox Document"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\FirefoxURL\shell]
+
+[HKEY_LOCAL_MACHINE\Software\Classes\FirefoxURL\shell\open]
+
+[HKEY_LOCAL_MACHINE\Software\Classes\FirefoxURL\shell\open\command]
+@="\"D:\\Internet\\Mozilla Firefox\\firefox.exe\" -- \"%1\""

@@ -12,11 +12,20 @@ REGEDIT4
 [-HKEY_CLASSES_ROOT\.library-ms\ShellNew]
 
 ;Google Sheets
+[-HKEY_CLASSES_ROOT\.gsheet\ShellNew]
 [-HKEY_CLASSES_ROOT\GoogleDriveFS.gsheet]
+[-HKEY_CURRENT_USER\SOFTWARE\Classes\.gsheet\ShellNew]
 ;Google Docs
+[-HKEY_CLASSES_ROOT\.gdoc\ShellNew]
 [-HKEY_CLASSES_ROOT\GoogleDriveFS.gdoc]
+[-HKEY_CURRENT_USER\SOFTWARE\Classes\.gdoc\ShellNew]
 ;Google Slides
+[-HKEY_CLASSES_ROOT\.gslides\ShellNew]
 [-HKEY_CLASSES_ROOT\GoogleDriveFS.gslides]
+[-HKEY_CURRENT_USER\SOFTWARE\Classes\.gslides\ShellNew]
+
+; eh?
+[-HKEY_CLASSES_ROOT\.grp\ShellNew]
 
 ; libreoffice
 [-HKEY_CLASSES_ROOT\.odt\LibreOffice.WriterDocument.1\ShellNew]

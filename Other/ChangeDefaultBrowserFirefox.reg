@@ -6,24 +6,24 @@ REGEDIT4
 [-HKEY_CLASSES_ROOT\ftp\shell]
 
 [HKEY_CLASSES_ROOT\ftp\shell\open\command]
-@="\"R:\\Chromium\\Chromium.exe\" \"%1\""
+@="\"D:\\Internet\\Mozilla Firefox\\firefox.exe\" \"%1\""
 [HKEY_CLASSES_ROOT\http\shell\open\command]
-@="\"R:\\Chromium\\Chromium.exe\" \"%1\""
+@="\"D:\\Internet\\Mozilla Firefox\\firefox.exe\" \"%1\""
 [HKEY_CLASSES_ROOT\https\shell\open\command]
-@="\"R:\\Chromium\\Chromium.exe\" \"%1\""
+@="\"D:\\Internet\\Mozilla Firefox\\firefox.exe\" \"%1\""
 [HKEY_CLASSES_ROOT\htmlfile\shell\open\command]
-@="\"R:\\Chromium\\Chromium.exe\" \"%1\""
+@="\"D:\\Internet\\Mozilla Firefox\\firefox.exe\" \"%1\""
 [HKEY_CLASSES_ROOT\htmlfile\shell\opennew\command]
-@="\"R:\\Chromium\\Chromium.exe\" \"%1\""
+@="\"D:\\Internet\\Mozilla Firefox\\firefox.exe\" \"%1\""
 
 [HKEY_CLASSES_ROOT\ftp\DefaultIcon]
-@="R:\\Utils\\Icons\\Chromium.ico,0"
+@="R:\\Utils\\Icons\\Firefox.ico,0"
 [HKEY_CLASSES_ROOT\http\DefaultIcon]
-@="R:\\Utils\\Icons\\Chromium.ico,0"
+@="R:\\Utils\\Icons\\Firefox.ico,0"
 [HKEY_CLASSES_ROOT\https\DefaultIcon]
-@="R:\\Utils\\Icons\\Chromium.ico,0"
+@="R:\\Utils\\Icons\\Firefox.ico,0"
 [HKEY_CLASSES_ROOT\htmlfile\DefaultIcon]
-@="R:\\Utils\\Icons\\Chromium.ico,0"
+@="R:\\Utils\\Icons\\Firefox.ico,0"
 
 [HKEY_CLASSES_ROOT\htmlfile\shell\open]
 @="Open"

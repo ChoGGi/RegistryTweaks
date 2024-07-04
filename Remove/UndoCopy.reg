@@ -1,0 +1,7 @@
+REGEDIT4
+
+; You can lose work if you fat click the menu item
+; https://mihai.fm/how-to-lose-your-work-using-undo-copy-in-windows/
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"MaxUndoItems"=dword:00000000

@@ -6,7 +6,7 @@
 
 
 :: To enable hibernate
-powercfg -h on
+powercfg -h off
 
 
 :: To turn on Fast Startup

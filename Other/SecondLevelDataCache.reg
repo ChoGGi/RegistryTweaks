@@ -25,4 +25,4 @@ REGEDIT4
 ;"SecondLevelDataCache"=dword:00002000
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
-"SecondLevelDataCache"=dword:00000100
+"SecondLevelDataCache"=dword:00000400

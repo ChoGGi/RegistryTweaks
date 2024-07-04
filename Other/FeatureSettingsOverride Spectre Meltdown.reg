@@ -1,0 +1,20 @@
+REGEDIT4
+
+;; Set Registry Key to enable fix ist for server systems
+;; CVE-2017-5715 - Spectre = Bit 0 = Banchtarget Injection = BITWindowsSupportEnabled=Enabled
+;; CVE-2017-5754 - Meltdown = Bit 1 = rogue data cache load = VAShadowWindowsSupportEnabled
+
+;; FeatureSettingsOverride represents a bitmap that overrides the default setting and controls which mitigations will be disabled.
+;; Bit 0 controls the mitigation corresponding to CVE-2017-5715
+;; and Bit 1 controls the mitigation corresponding to CVE-2017-5754.
+;; The bits are set to “Zero” to enable the mitigation and to “One” to disable the mitigation.
+
+;; FeatureSettingsOverrideMask represents a bitmap mask that is used in conjunction with FeatureSettingsOverride and
+;; in this case, we use the value 3 (0x11) which indicates the first two bits that correspond to the available mitigations.
+;; This registry key is set to 3 both when we want to enable the mitigations and to disable the mitigations.
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
+; 0 == enable, 1 == disable
+"FeatureSettingsOverride"=dword:00000001
+; always 3
+"FeatureSettingsOverrideMask"=dword:00000003

@@ -1,0 +1,6 @@
+REGEDIT4
+
+; Windows delays running startup items after boot.
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Serialize]
+"Startupdelayinmsec"=dword:00000000
+
