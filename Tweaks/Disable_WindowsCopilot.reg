@@ -1,0 +1,4 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsCopilot]
+"TurnOffWindowsCopilot"=dword:00000001

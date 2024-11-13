@@ -1,0 +1,14 @@
+REGEDIT4
+
+; always show
+[HKEY_CURRENT_USER\Control Panel\Accessibility]
+"DynamicScrollbars"=dword:00000000
+
+; more chunky
+[HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics]
+; default -262
+"ScrollHeight"="-300"
+"ScrollWidth"="-300"
+; default -15
+"BorderWidth"="-30"
+"PaddedBorderWidth"="-30"

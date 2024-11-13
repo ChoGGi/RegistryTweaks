@@ -1,6 +1,6 @@
 REGEDIT4
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer]
-"Max Cached Icons"="65536"
+"Max Cached Icons"="4096"
 [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer]
-"Max Cached Icons"="65536"
+"Max Cached Icons"="4096"
