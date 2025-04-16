@@ -1,0 +1,6 @@
+REGEDIT4
+
+; Disable Windows Spotlight on Desktop Background
+; https://www.elevenforum.com/t/enable-or-disable-windows-spotlight-on-desktop-background-in-windows-11.18246/
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\CloudContent]
+"DisableSpotlightCollectionOnDesktop"=dword:00000001

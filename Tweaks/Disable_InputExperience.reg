@@ -1,0 +1,10 @@
+REGEDIT4
+
+; Disable Input Experience (20% idle CPU usage in Windows Explorer)
+; https://borncity.com/win/2022/12/08/windows-11-input-experience-consumes-20-cpu-power-in-file-explorer/
+[HKEY_CURRENT_USER\Software\Microsoft\input]
+"IsInputAppPreloadEnabled"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Dsh]
+"IsPrelaunchEnabled"=dword:00000000
+

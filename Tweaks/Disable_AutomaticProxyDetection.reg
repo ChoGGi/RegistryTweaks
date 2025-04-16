@@ -1,0 +1,7 @@
+REGEDIT4
+
+; Disable automatic proxy detection (will speed up WebDAV and .net apps)
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings]
+"AutoDetect"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WinHttpAutoProxySvc]
+"Start"=dword:00000004

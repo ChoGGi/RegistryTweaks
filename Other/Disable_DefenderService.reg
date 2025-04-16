@@ -1,0 +1,10 @@
+REGEDIT4
+
+; can only write in safe mode
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\MsMpEng.exe]
+"debugger"="R:\\Utils\\empty.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\MpDefenderCoreService.exe]
+"debugger"="R:\\Utils\\empty.exe"
+

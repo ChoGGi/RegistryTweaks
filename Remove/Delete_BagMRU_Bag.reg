@@ -7,5 +7,6 @@ REGEDIT4
 [-HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU]
 [-HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags]
 
+; Disable automatic folder type discovery
 [HKEY_CURRENT_USER\Software\Classes\LocalSettings\Software\Microsoft\Windows\Shell\Bags\AllFolders\Shell]
  "FolderType"="NotSpecified

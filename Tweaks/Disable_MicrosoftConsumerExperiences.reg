@@ -1,0 +1,5 @@
+REGEDIT4
+
+; Turn off Microsoft consumer experiences
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\CloudContent]
+"DisableWindowsConsumerFeatures"=dword:00000001

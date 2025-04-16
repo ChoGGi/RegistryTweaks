@@ -1,4 +1,6 @@
 REGEDIT4
 
-[HKEY_CURRENT_USER\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32 ]
-
+; Re-enable classic context menu
+; https://administrator.de/tutorial/windows-11-quicky-klassisches-kontextmenue-aktivieren-1377777282.html
+[HKEY_CURRENT_USER\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32]
+@=""
