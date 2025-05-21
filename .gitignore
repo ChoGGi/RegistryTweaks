@@ -5,3 +5,5 @@ desktop.ini
 always.txt
 RegAllRemove.reg
 RegAllTweaks.reg
+ahk.txt
+.gitignore
