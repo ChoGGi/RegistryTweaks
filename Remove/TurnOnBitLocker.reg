@@ -1,0 +1,7 @@
+REGEDIT4
+
+[HKEY_CLASSES_ROOT\Drive\shell\encrypt-bde]
+"LegacyDisable"=""
+
+[HKEY_CLASSES_ROOT\Drive\shell\encrypt-bde-elev]
+"LegacyDisable"=""
