@@ -1,18 +1,16 @@
 REGEDIT4
 
+; HKEY_LOCAL_MACHINE: the machine
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Environment]
-"TEMP"="C:\\Tmp"
-"TMP"="C:\\Tmp"
+"TEMP"="C:\\TempSys"
+"TMP"="C:\\TempSys"
 
+; HKEY_CURRENT_USER: current account
 [HKEY_CURRENT_USER\Environment]
-"TEMP"="C:\\Tmp"
-"TMP"="C:\\Tmp"
+"TEMP"="C:\\TempUsr"
+"TMP"="C:\\TempUsr"
 
+; HKEY_USERS\.DEFAULT: Local System account
 [HKEY_USERS\.DEFAULT\Environment]
-"TEMP"="C:\\Tmp"
-"TMP"="C:\\Tmp"
-
-
-;HKEY_LOCAL_MACHINE: the machine
-;HKEY_CURRENT_USER: current account
-;HKEY_USERS\.DEFAULT: Local System account
+"TEMP"="C:\\TempSys"
+"TMP"="C:\\TempSys"

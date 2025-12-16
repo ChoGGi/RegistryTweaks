@@ -3,17 +3,23 @@ REGEDIT4
 ; change permissions on shell new trash to stop google from re-adding
 ; see reg Clean up ShellNew
 
-;overlay icons
+; overlay icons
 [-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\ GoogleDriveBlacklisted]
 [-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\ GoogleDriveSynced]
 [-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\ GoogleDriveSyncing]
 [-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\  GoogleDriveBlacklisted]
 [-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\  GoogleDriveSynced]
 [-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\  GoogleDriveSyncing]
-;context menu items
+
+; context menu items
 [-HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\GDContextMenu]
 [-HKEY_CLASSES_ROOT\Directory\shellex\ContextMenuHandlers\GDContextMenu]
 [-HKEY_CLASSES_ROOT\lnkfile\shellex\ContextMenuHandlers\GDContextMenu]
+
+; new context
+[-HKEY_CLASSES_ROOT\.gdoc\ShellNew]
+[-HKEY_CLASSES_ROOT\.gsheet\ShellNew]
+[-HKEY_CLASSES_ROOT\.gslides\ShellNew]
 
 ; Sync or Backup this Folder
 [-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shellex\ContextMenuHandlers\DriveFS 28 or later]
